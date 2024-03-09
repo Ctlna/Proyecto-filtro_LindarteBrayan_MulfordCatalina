@@ -84,3 +84,89 @@
     margin: 5px;
     font-size: 12px;
 }
+/*Deco de ayuda*/
+#barraHorizontal{
+    position: relative;
+}
+.linea{
+    position: relative;
+    display: flex;
+    width: 1431px;
+    left: 60px;
+    top: 15px;
+    margin: 7px;
+    justify-content: space-around;
+    align-items: center;
+}
+.opciones{
+    display: flex;
+}
+.simbolos{
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+.simboLogo{
+    width: 6em;
+    height: 6em;
+}
+.opcionesTexto{
+    margin-top: 30px;
+    height: 4px;
+    text-decoration:none
+}
+.simbolitos{
+    width: 26px;
+    height: 26px;
+    margin: 8px;
+}
+#HaAyuda{
+    position: absolute;
+    left: 314px;
+    top: 170px;
+    text-align: center;
+    
+}
+.formularioAyuda{
+    text-align: left;
+    position: relative;
+    left: 26px;
+}
+.ayudaTexto{
+    font-weight:bolder;
+    padding: 1.2em;
+}
+.ayudar{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    width: 1010px;
+    height: 40px;
+}
+#pqr{
+    height: 14em;
+}
+.cancelar{
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #ff721b;
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    position: relative;
+    right: 55px;
+    top: 35px;
+}
+.enviar{
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #ff721b;
+    color: white;
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    position: relative;
+    left: 55px;
+    top: 35px;
+}
