@@ -91,34 +91,100 @@
 .linea{
     position: relative;
     display: flex;
-    width: 1431px;
-    left: 60px;
-    top: 15px;
+    width: 1900px;
+    left: -10px;
+    top: -20px;
     margin: 7px;
     justify-content: space-around;
     align-items: center;
 }
+
 .opciones{
     display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.simboloA{
+    width: 1.4em;
+    height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
+.opcionAnadir{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 60%;
+    left: 7.6%;
+}
+.simboloR{
+    width: 1.4em;
+    height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.opcionRefresh{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 32%;
+    left: 16.6%;
+}
+.opcionEliminar {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 60%;
+    left: 25.6%;
+}
+.simboloE{
+    width: 1.2em;
+    height: 1.5em;
+    position: absolute;
+    top: 55%;
+    left: 24%;
+}
+.simboloRP{
+    width: 1.8em;
+    height: 2em;
+    position: absolute;
+    top: 40%;
+    left: 44.6%;
+}
+.opcionRepor{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 59%;
+    left: 46.4%;
 }
 .simbolos{
-    width: 3em;
-    height: 3em;
-    margin: 1em;
+    width: 1.8em;
+    height: 1.58em;
+    position: absolute;
+    top:50%;
+    left: 55%
+}
+.opcionA{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    top: 60%;
+    left: 57%;
 }
 .simboLogo{
-    width: 6em;
-    height: 6em;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    top: 40%;
+    left: 35%
 }
 .opcionesTexto{
     margin-top: 30px;
     height: 4px;
     text-decoration:none
-}
-.simbolitos{
-    width: 26px;
-    height: 26px;
-    margin: 8px;
 }
 #HaAyuda{
     position: absolute;
@@ -169,4 +235,97 @@
     position: relative;
     left: 55px;
     top: 35px;
+}
+.titu {
+    position: absolute;
+    transform: translateX(264%);
+    font-size: 16px;
+}
+.text {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 17px;
+    top: 70px;
+    left: 100px
+}
+.cositos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 310px;
+    margin-top: 14px;
+}
+.simbolitoTu, .simbolitoCa, .fotoPer {
+    margin-left: 12px;
+    width: 1vi;
+}
+.fotoPer {
+    width: 2vi;
+}
+.simbolitoTu, .simbolitoCa {
+    position: relative;
+    top: 7px; 
+}
+.primer {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: 90px;
+    left: -250px;
+}
+.secun {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: 56px;
+    left: -55px;
+}
+.tercer {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: 22px;
+    left: 111px;
+}
+.cuarto {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -11px;
+    left: 242px;
+}
+.quinto {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -45px;
+    left: 400px;
+}
+.sexto {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -79px;
+    left: 600px;
+}
+.septimo {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -110px;
+    left: 700px;
+}
+.octavo {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -145px;
+    left: 800px;
+}
+.noveno {
+    position: relative;
+    transform: translateX(16%);
+    font-size: 11px;
+    top: -179px;
+    left: 950px;
 }
