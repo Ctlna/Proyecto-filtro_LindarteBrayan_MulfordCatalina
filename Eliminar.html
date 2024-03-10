@@ -10,35 +10,105 @@
     <div id="barraHorizontal">
         <div class="linea">
             <div class="opciones">
-                <img src="./img/Group 3.png" class="simbolos">
-                <a href="./Añadir.html" class="opcionesTexto">Añadir</a>
+                <img src="./img/Group 3.png" class="simboloA">
+                <a href="./Añadir.html" class="opcionAnadir">Añadir</a>
             </div>
             <div class="opciones">
-                <img src="./img/recargar.png" class="simbolos">
-                <p class="opcionesTexto">Refrescar</p>
+                <img src="./img/recargar.png" class="simboloR">
+                <p class="opcionRefresh">Refrescar</p>
             </div>
             <div class="opciones">
                 <img src="./img/logosolo.png" class="simboLogo">
             </div>
             <div class="opciones">
-                <img src="./img/caneca.png" class="simbolos">
-                <a href="./Eliminar.html" class="opcionesTexto">Eliminar</a>
+                <img src="./img/caneca.png" class="simboloE">
+                <a href="./Eliminar.html" class="opcionEliminar">Eliminar</a>
             </div>
             <div class="opciones">
-                <img src="./img/piojo.png" class="simbolos">
-                <a href="./Reportes.html" class="opcionesTexto">Reportar</a>
+                <img src="./img/piojo.png" class="simboloRP">
+                <a href="./Reportes.html" class="opcionRepor">Reportar</a>
             </div>
             <div class="opciones">
-                <img src="./img/pregunta.png" class="simbolos" span style="cursor: pointer;">
+                <img src="./img/pregunta.png" class="simbolos">
+                <a href="./Ayuda.html" class="opcionA">Ayuda</a>
             </div>
             <div class="cositos">
-                <img src="./img/tuerca.png" class="simbolitos" span style="cursor: pointer;">
-                <img src="./img/campana.png" class="simbolitos" span style="cursor: pointer;">
-                <img src="./img/perfil.png" class="foto" span style="cursor: pointer;">  <!--Lo del menú-->
+                <img src="./img/tuerca.png" class="simbolitoTu" span style="cursor: pointer;">
+                <img src="./img/campana.png" class="simbolitoCa" span style="cursor: pointer;">
+                <img src="./img/perfil.png" class="fotoPer" span style="cursor: pointer;">
             </div>
         </div>
     <img src="./img/Line 1.png" class="linea">
     </div>
-    <div id="HaEliminar"></div>
+
+    <div id="HaEliminar">
+        <h1 class="dondeEstas">Eliminar</h1>
+        <p class="descripción">Selecciona el indicador que se desea eliminar</p>
+
+        <div class="lineaTitulos">
+            <div class="indicaT">Indicador</div> 
+            <div class="fdterminaciónT">Fecha de terminación</div>  
+            <div class="areaT">Área</div>
+        </div>
+        <div class="contenidoEliminar">
+            <div class="lineaUno">
+                <input type="radio" name="lineaUno" id="Seleccionar">
+                <label class="cuadro">
+                    <div class="indica">Modelado 3D</div> 
+                    <div class="fdterminación">12/12/21</div>  
+                    <div class="area">Marketing</div>
+                </label>
+            </div>
+            <div class="lineaDos">
+                <input type="radio" name="lineaDos" id="Seleccionar">
+                <div class="cuadro">
+                    <div class="indica">Finca Galeón</div> 
+                    <div class="fdterminación">12/05/21</div>  
+                    <div class="area">Diseño</div>
+                </div>
+            </div>
+            <div class="lineaTres">
+                <input type="radio" name="lineaTres" id="Seleccionar">
+                <div class="cuadro">
+                    <div class="indica">Colegios Privados</div> 
+                    <div class="fdterminación">12/11/21</div>  
+                    <div class="area">Developers</div>
+                </div>
+            </div>
+            <div class="lineaCuatro">
+                <input type="radio" name="liCuatro" id="Seleccionar" value="0">
+                <div class="cuadro" for="liCuatro">
+                    <div class="indica">Electrodomésticos</div> 
+                    <div class="fdterminación">12/09/21</div>  
+                    <div class="area">Gerencia</div>
+                </div>
+            </div>
+            <div class="lineaCinco">
+                <input type="radio" name="lineaCinco" id="Seleccionar">
+                <div class="cuadro">
+                    <div class="indica">Estarto 2-Floridablanca</div> 
+                    <div class="fdterminación">12/09/21</div>  
+                    <div class="area">Marketing</div>
+                </div>
+            </div>
+            <div class="lineaSeis">
+                <input type="radio" name="lineaSeis" id="Seleccionar">
+                <div class="cuadro">
+                    <div class="indica">Jóvenes en Acción</div> 
+                    <div class="fdterminación">09/11/21</div>  
+                    <div class="area">Producción</div>
+                </div>
+            </div>
+        </div>
+
+        <a href="./Eliminar.html"><button class="cancelar">Cancelar</button></a>
+        <a href="#seguro"><button class="enviar">Aceptar</button></a>
+        <div id="seguro">
+            <p>Estas seguro que deseas eliminar?</p>
+            <a href="./Eliminar.html"><button class="dijoQueSi">Sí</button></a>
+            <a href="./Eliminar.html"><button class="arrepentimiento">No</button></a>
+        </div>
+
+    </div>
 </body>
 </html>
