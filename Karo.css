@@ -84,7 +84,7 @@
     margin: 5px;
     font-size: 12px;
 }
-/*Deco de ayuda*/
+/*Deco de ayuda-----*/
 #barraHorizontal{
     position: relative;
 }
@@ -98,7 +98,6 @@
     justify-content: space-around;
     align-items: center;
 }
-
 .opciones{
     display: flex;
     align-items: center;
@@ -112,6 +111,8 @@
     left: 6%;
 }
 .opcionAnadir{
+    text-decoration:none;
+    color:black;
     width: 4em;
     height: 4em;
     position: absolute;
@@ -126,6 +127,8 @@
     left: 15%;
 }
 .opcionRefresh{
+    text-decoration:none;
+    color:black;
     width: 4em;
     height: 4em;
     position: absolute;
@@ -133,6 +136,8 @@
     left: 16.6%;
 }
 .opcionEliminar {
+    text-decoration:none;
+    color:black;
     width: 4em;
     height: 4em;
     position: absolute;
@@ -154,6 +159,8 @@
     left: 44.6%;
 }
 .opcionRepor{
+    text-decoration:none;
+    color:black;
     width: 4em;
     height: 4em;
     position: absolute;
@@ -168,6 +175,8 @@
     left: 55%
 }
 .opcionA{
+    text-decoration:none;
+    color:black;
     width: 4em;
     height: 4em;
     position: absolute;
@@ -182,6 +191,8 @@
     left: 35%
 }
 .opcionesTexto{
+    text-decoration:none;
+    color:black;
     margin-top: 30px;
     height: 4px;
     text-decoration:none
@@ -236,6 +247,7 @@
     left: 55px;
     top: 35px;
 }
+/*Deco de Añadir------*/
 .titu {
     position: absolute;
     transform: translateX(264%);
@@ -328,4 +340,172 @@
     font-size: 11px;
     top: -179px;
     left: 950px;
+}
+/*Deco de Eliminar----*/
+#HaEliminar{
+    position: absolute;
+    left: 314px;
+    top: 170px;
+    text-align: center;
+}
+.dondeEstas{
+    text-align: center;
+}
+.descripción{
+    text-align: center;
+}
+.lineaTitulos{
+    position: relative;
+    right: 5em;
+    width: 63.73em;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+.contenidoEliminar{
+    position: relative;
+    top: 6px;
+    left: 3px;
+    width: 63.73em;
+}
+.lineaUno{
+    position: relative;
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lineaDos{
+    position: relative;
+    width: 60em;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lineaTres{
+    position: relative;
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lineaCuatro{
+    position: relative;
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lineaCinco{
+    position: relative;
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lineaSeis{
+    position: relative;
+    width: 60em;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.indicaT{
+    position: relative;
+    left: 4px;
+}
+.fdterminaciónT{
+    position: relative;
+    left: 20px;
+}
+.areaT{
+    position: relative;
+    left: 20px;
+}
+.indica{
+    text-align: left;
+    position: relative;
+    left: 88px;
+    top: 1em;
+    width: 168px;
+}
+.fdterminación{
+    text-align: left;
+    position: relative;
+    left: 406px;
+    width: 60px;
+}
+.area{
+    text-align: left;
+    position: relative;
+    left: 698px;
+    bottom: 22px;
+    width: 70px;
+}
+.cuadro{
+    border: 1px solid grey;
+    border-radius: 1em;
+    position: relative;
+    width: 60em;
+    height: 3em;
+}
+#Seleccionar:checked + .cuadro {
+    background-color: rgb(241, 90, 89);
+    border: 1px solid red;
+}
+#seguro{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: 155px;
+    bottom: 80px;
+    width: 19em;
+    height: 9em;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 29px;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    padding-bottom: 0;
+}
+#seguro:target{
+    opacity: 1;
+    display: block;
+}
+.arrepentimiento, .dijoQueSi{
+    margin: 1em;
+    width: 3em;
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 1.4em;
+}
+
+/*Deco de Reportar---*/
+#HaReportes{
+    position: absolute;
+    left: 314px;
+    top: 170px;
+    text-align: center;
+}
+.rectangulo{
+    border: 1px solid grey;
+    border-radius: 1em;
+    position: relative;
+    width: 60em;
+    height: 3em;
+}
+#Seleccionar:checked + .rectangulo {
+    background-color: rgb(250, 239, 155);
+    border: 1px solid rgb(246, 215, 118);   
 }
