@@ -10,53 +10,59 @@
     <div id="barraHorizontal">
         <div class="linea">
             <div class="opciones">
-                <img src="./img/Group 3.png" class="simbolos">
-                <a href="./Añadir.html" class="opcionesTexto">Añadir</a>
+                <img src="./img/Group 3.png" class="simboloA">
+                <a href="./Añadir.html" class="opcionAnadir">Añadir</a>
             </div>
             <div class="opciones">
-                <img src="./img/recargar.png" class="simbolos">
-                <p class="opcionesTexto">Refrescar</p>
+                <img src="./img/recargar.png" class="simboloR">
+                <p class="opcionRefresh">Refrescar</p>
             </div>
             <div class="opciones">
                 <img src="./img/logosolo.png" class="simboLogo">
             </div>
             <div class="opciones">
-                <img src="./img/caneca.png" class="simbolos">
-                <a href="./Eliminar.html" class="opcionesTexto">Eliminar</a>
+                <img src="./img/caneca.png" class="simboloE">
+                <a href="./Eliminar.html" class="opcionEliminar">Eliminar</a>
             </div>
             <div class="opciones">
-                <img src="./img/piojo.png" class="simbolos">
-                <a href="./Reportes.html" class="opcionesTexto">Reportar</a>
+                <img src="./img/piojo.png" class="simboloRP">
+                <a href="./Reportes.html" class="opcionRepor">Reportar</a>
             </div>
             <div class="opciones">
-                <img src="./img/pregunta.png" class="simbolos" span style="cursor: pointer;">
+                <img src="./img/pregunta.png" class="simbolos">
+                <a href="./Ayuda.html" class="opcionA">Ayuda</a>
             </div>
             <div class="cositos">
-                <img src="./img/tuerca.png" class="simbolitos" span style="cursor: pointer;">
-                <img src="./img/campana.png" class="simbolitos" span style="cursor: pointer;">
-                <img src="./img/perfil.png" class="foto" span style="cursor: pointer;">  <!--Lo del menú-->
+                <img src="./img/tuerca.png" class="simbolitoTu" span style="cursor: pointer;">
+                <img src="./img/campana.png" class="simbolitoCa" span style="cursor: pointer;">
+                <img src="./img/perfil.png" class="fotoPer" span style="cursor: pointer;">
             </div>
         </div>
     <img src="./img/Line 1.png" class="linea">
     </div>
+
 
     <div id="HaAyuda">
         <h1 class="dondeEstas">Ayuda</h1>
         <p class="descripción">En que deseas ayuda</p>
         <form class="formularioAyuda">
             <label for="name" class="ayudaTexto">Nombre</label><br><br>
-            <input type="name" id="name" class="ayudar" name="name" placeholder="Nombre entero" ><br>
+            <input type="name" id="name" class="ayudar" name="name" placeholder="Nombre entero" required><br>
                 <br>
             <label for="correo" class="ayudaTexto">Correo</label><br><br>
-            <input type="email" id="correo" class="ayudar" name="correo" placeholder="Correo electronico" ><br>
+            <input type="email" id="correo" class="ayudar" name="correo" placeholder="Correo electronico" required><br>
                 <br>
             <label for="pqr" class="ayudaTexto">PQR</label><br><br>
-            <input type="textarea" id="pqr" class="ayudar" name="pqr" placeholder="Escribenos, te responderemos en cuanto nos sea posible"><br>
+            <input type="textarea" id="pqr" class="ayudar" name="pqr" placeholder="Escribenos, te responderemos en cuanto nos sea posible" required><br>
                 <br>
         </form>
     
         <a href="./Ayuda.html"><button class="cancelar">Cancelar</button></a>
-        <button class="enviar">Enviar</button> <!--Acabar este boton-->
+        <a href="#enviado"><button class="enviar">Enviar</button></a> 
+    </div>
+    <div id="enviado">
+        <p class="enViado">Tu mensaje se ha enviado exitosamente, pronto nos contactaremos</p>
+        <a href="./Ayuda.html"><button class="oki">Ok</button></a>
     </div>
 </body>
 </html>
