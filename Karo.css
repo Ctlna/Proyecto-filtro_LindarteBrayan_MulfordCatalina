@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+
 /*Deco del login*/
-.login{
+#loginhtml{
     position: absolute;
     background-image: url(./img/fondoFoto.png);
     height: 1070px;
@@ -20,8 +28,8 @@
 .logoSolo{
     opacity: 1;
     position: absolute;
-    top: 150px;
-    right: 1398px;
+    top: 27em;
+    right: 48.6em;
     animation: desaparecer 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
@@ -32,9 +40,10 @@
 }
 .cajaLogin{
     position: absolute;
-    top: 30px;
-    left: 126px;
-    width: 595px;
+    top: 19em;
+    left: 43em;
+    width: 37.96em;
+    height: 30em;
     border: 1px solid #707070;
     background-color: #FFFFFF;
     border-radius: 29px;
@@ -60,7 +69,7 @@
 }
 .formularioGet{
     position: relative;
-    left: 100px;
+    left: 3em;
     text-align: left;
     font-size: 18px;
 }
@@ -68,22 +77,64 @@
     border: 1px solid #707070;
     border-radius: 20px;
     opacity: 1;
-    width: 320px;
+    width: 20em;
     font-size: 25px;
 }
 .botonI{
+    position: relative;
+    right: 0.1em;
     border-radius: 25px;
     border: 1px solid #ff721b;
     background-color: #ff721b;
     color: white;
-    font-size: 15px;
-    width: 170px;
-    height: 49px;
+    font-size: 1em;
+    width: 10.6em;
+    height: 3em;
 }
 .textico{
-    margin: 5px;
-    font-size: 12px;
+    margin: 1em;
+    font-size: 0.9em;
 }
+/*----------*/
+.loginNombre{    
+    position: absolute;
+    right: 17em;
+    top: 4%;
+    width: 6em;
+    height: 7em;
+}
+.cajaLoginDos {
+    position: absolute;
+    top: 19em;
+    left: 41em;
+    height: 25em;
+    width: 40em;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+    animation: login 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+.aparece{
+    position: relative;
+    top: 5em;
+    left: 0.2em;
+}
+.holis{
+    margin-top: 2.4em;
+    font-size: 2em;
+    color: black;
+}
+.perfil{
+    width: 6em;
+}
+.textiwiris{
+    font-size: 1.5em;
+    color: black;
+}
+
 /*Deco de ayuda-----*/
 #barraHorizontal{
     position: relative;
@@ -92,8 +143,8 @@
     position: relative;
     display: flex;
     width: 1900px;
-    left: -10px;
-    top: -20px;
+    left: -3px;
+    top: -1px;
     margin: 7px;
     justify-content: space-around;
     align-items: center;
@@ -104,10 +155,10 @@
     margin-bottom: 10px;
 }
 .simboloA{
-    width: 1.4em;
-    height: 1.5em;
+    width: 2.4em;
+    height: 2.4em;
     position: absolute;
-    top: 50%;
+    top: 7%;
     left: 6%;
 }
 .opcionAnadir{
@@ -116,14 +167,15 @@
     width: 4em;
     height: 4em;
     position: absolute;
-    top: 60%;
-    left: 7.6%;
+    top: 22%;
+    left: 8.2%;
+
 }
 .simboloR{
-    width: 1.4em;
-    height: 1.5em;
+    width: 2.4em;
+    height: 2.4em;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 15%;
 }
 .opcionRefresh{
@@ -132,30 +184,30 @@
     width: 4em;
     height: 4em;
     position: absolute;
-    top: 32%;
-    left: 16.6%;
+    top: 1%;
+    left: 17%;
 }
 .opcionEliminar {
     text-decoration:none;
     color:black;
     width: 4em;
-    height: 4em;
-    position: absolute;
-    top: 60%;
-    left: 25.6%;
-}
-.simboloE{
-    width: 1.2em;
     height: 1.5em;
     position: absolute;
-    top: 55%;
+    top: 31%;
+    left: 25.8%;
+}
+.simboloE{
+    width: 2em;
+    height: 2.5em;
+    position: absolute;
+    top: 7%;
     left: 24%;
 }
 .simboloRP{
-    width: 1.8em;
-    height: 2em;
+    width: 2em;
+    height: 2.5em;
     position: absolute;
-    top: 40%;
+    top: 7%;
     left: 44.6%;
 }
 .opcionRepor{
@@ -164,14 +216,14 @@
     width: 4em;
     height: 4em;
     position: absolute;
-    top: 59%;
+    top: 31%;
     left: 46.4%;
 }
 .simbolos{
-    width: 1.8em;
-    height: 1.58em;
+    width: 2.4em;
+    height: 2.4em;
     position: absolute;
-    top:50%;
+    top: 7%;
     left: 55%
 }
 .opcionA{
@@ -180,14 +232,14 @@
     width: 4em;
     height: 4em;
     position: absolute;
-    top: 60%;
+    top: 31%;
     left: 57%;
 }
 .simboLogo{
-    width: 2em;
-    height: 2em;
+    width: 4em;
+    height: 4em;
     position: absolute;
-    top: 40%;
+    top: -10%;
     left: 35%
 }
 .opcionesTexto{
@@ -234,6 +286,7 @@
     position: relative;
     right: 55px;
     top: 35px;
+    cursor: pointer;
 }
 .enviar{
     border-radius: 15px;
@@ -246,7 +299,40 @@
     position: relative;
     left: 55px;
     top: 35px;
+    cursor: pointer;
 }
+#enviado{
+    display: block;
+    opacity: 0;
+    position: relative;
+    left: 486px;
+    top: 5em;
+    width: 19em;
+    height: 9em;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 29px;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    padding-bottom: 0;
+}
+#enviado:target{
+    opacity: 1;
+}
+.oki{
+    width: 2em;
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0.3em;
+    margin-top: 1em;
+}
+
 /*Deco de Añadir------*/
 .titu {
     position: absolute;
@@ -341,6 +427,7 @@
     top: -179px;
     left: 950px;
 }
+
 /*Deco de Eliminar----*/
 #HaEliminar{
     position: absolute;
@@ -432,22 +519,23 @@
 .indica{
     text-align: left;
     position: relative;
-    left: 88px;
+    left: 5em;
     top: 1em;
-    width: 168px;
+    width: 12em;
 }
 .fdterminación{
     text-align: left;
     position: relative;
-    left: 406px;
-    width: 60px;
+    left: 25em;
+    bottom: 5%;
+    width: 4em;
 }
 .area{
     text-align: left;
     position: relative;
-    left: 698px;
-    bottom: 22px;
-    width: 70px;
+    left: 43.6em;
+    bottom: 60%;
+    width: 4.3em;
 }
 .cuadro{
     border: 1px solid grey;
@@ -489,6 +577,7 @@
     background-color: #FFFFFF;
     color: black;
     font-size: 1.4em;
+    cursor: pointer;
 }
 
 /*Deco de Reportar---*/
@@ -509,9 +598,11 @@
     background-color: rgb(250, 239, 155);
     border: 1px solid rgb(246, 215, 118);   
 }
+#Seleccionar{
+    cursor: pointer;
+}
 
-
-
+/*Decoración de añadir*/
 .cuadroo {
     border: 1px solid grey;
     border-radius: 1em;
