@@ -1136,3 +1136,77 @@
         cursor: pointer;
 }
 
+/*----------Para el celular IPhone 14 pro max----------------------------------------*/
+@media (max-width: 768px) {
+    body{
+        width: 430px;
+        height: 932px;
+    }
+    /*Refrescar*/
+    #HaRefresh {
+        color: black;
+        font-size: 3vi;
+        background-color: white;
+        width: 20em;
+        position: relative;
+        left: 6em;
+        top: 22em;    
+        text-align: center;
+        border-radius: 2em;
+    }
+    .loguito{
+        width: 30vmin;
+    }
+    /*Ayuda*/
+    #HaAyuda{
+        position: absolute;
+        left: 0;
+        top: 170px;
+        text-align: center;
+    }
+    .dondeEstas{
+        text-align: center;
+        width: 100vi;
+        font-size: 2.5em;
+        margin: 2vi;
+    }
+    .descripción{
+        text-align: center;
+        width: 100vi;
+        font-size: 1.5em;
+        margin: 2vi;
+    }
+    .formularioAyuda {
+        text-align: center;
+        position: relative;
+        left: 0;
+        width: 102vi;
+        top: 1em;
+    }
+    .ayudaTexto {
+        font-weight: bolder;
+        padding: 0;
+        font-size: 1.3em;
+    }
+    .ayudar {
+        background-color: #d9d9d9;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        width: 29em;
+        height: 3em;
+    }
+    .cancelar {
+        position: relative;
+        right: -96px;
+        top: 1em;
+        cursor: pointer;
+    }
+    .enviar {
+        position: relative;
+        right: 4.49em;
+        top: 5em;
+        cursor: pointer;
+    }
+    
+  
+}
