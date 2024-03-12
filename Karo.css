@@ -341,6 +341,17 @@
     padding: 0.3em;
     margin-top: 1em;
 }
+.oki{
+    width: 6em;
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0.3em;
+    margin-top: 1em;
+}
 
 /*Deco de Añadir------*/
 .titu {
@@ -1252,7 +1263,7 @@ display: block;
         position: absolute;
         left: 0;
         top: 170px;
-        text-align: center;
+        text-align: left;
     }
     .dondeEstas{
         text-align: center;
@@ -1262,7 +1273,7 @@ display: block;
     }
     .descripción{
         text-align: center;
-        width: 100vi;
+        width: 97vi;
         font-size: 1.5em;
         margin: 2vi;
     }
@@ -1271,7 +1282,7 @@ display: block;
         position: relative;
         left: 0;
         width: 102vi;
-        top: 1em;
+        top: 3em;
     }
     .ayudaTexto {
         font-weight: bolder;
@@ -1287,18 +1298,93 @@ display: block;
     }
     .cancelar {
         position: relative;
-        right: -96px;
-        top: 1em;
+        top: 3em;
+        left: 26vi;
         cursor: pointer;
     }
     .enviar {
         position: relative;
-        right: 4.49em;
-        top: 5em;
+        right: 3.7em;
+        top: 6em;
         cursor: pointer;
     }
-    
-  
+    #enviado {
+        left: 83px;
+        top: 5em;
+        width: 10em;
+        height: 10em;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 0.1em;
+    }
+    /*Eliminar*/
+    #HaEliminar {
+        position: absolute;
+        left: 0;
+        top: 170px;
+        text-align: left;
+    }
+    .cuadro {
+        border: 1px solid grey;
+        border-radius: 1em;
+        position: relative;
+        width: 80vi;
+        height: 10em;
+    }
+    .contenidoEliminar {
+        left: 23px;
+    }
+    .lineaTitulos {
+        height: 0;
+    }
+    .indica {
+        text-align: center;
+        left: 4em;
+        top: 2em;
+        width: 12em;
+    }
+    .fdterminación {
+        left: 8em;
+        bottom: -33%;
+        width: 4em;
+    }
+    .area {
+        text-align: center;
+        left: 8em;
+        bottom: -49%;
+        width: 4.3em;
+    }
+    .indicaT, .fdterminaciónT, .areaT {
+        visibility: hidden;
+    }
+    #seguro {
+        left: 1em;
+        bottom: 9em;
+        width: 9em;
+        height: 16em;
+    }
+    /*Reportar*/
+    #HaReportes {
+        position: absolute;
+        left: 0;
+        top: 170px;
+        text-align: left;
+    }
+    .contenidoReportar{
+        padding-left: 3vi;
+    }
+    .rectangulo {
+        border: 1px solid grey;
+        border-radius: 1em;
+        position: relative;
+        width: 80vi;
+        height: 10em;
+    }
+    .oki {
+        width: 4em;
+        padding: 0;
+        margin-top: 0;
+    }
 }
 @property --progress-value {
     syntax: '<integer>';
