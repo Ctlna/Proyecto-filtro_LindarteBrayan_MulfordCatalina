@@ -331,15 +331,14 @@
 /*Deco de Añadir------*/
 .titu {
     position: absolute;
-    transform: translateX(264%);
+    transform: translateX(300%);
     font-size: 16px;
 }
 .text {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(27%);
     font-size: 17px;
     top: 70px;
-    left: 100px
 }
 .cositos {
     display: flex;
@@ -367,63 +366,56 @@
     transform: translateX(16%);
     font-size: 11px;
     top: 90px;
-    left: -250px;
+    left: -80px;
 }
 .secun {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(20%);
     font-size: 11px;
     top: 56px;
-    left: -55px;
 }
 .tercer {
     position: relative;
     transform: translateX(16%);
     font-size: 11px;
     top: 22px;
-    left: 111px;
+    left: 215px;
 }
 .cuarto {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(35%);
     font-size: 11px;
     top: -11px;
-    left: 242px;
 }
 .quinto {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(45%);
     font-size: 11px;
     top: -45px;
-    left: 400px;
 }
 .sexto {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(57%);
     font-size: 11px;
     top: -79px;
-    left: 600px;
 }
 .septimo {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(64%);
     font-size: 11px;
-    top: -110px;
-    left: 700px;
+    top: -111.7px;
 }
 .octavo {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(73%);
     font-size: 11px;
     top: -145px;
-    left: 800px;
 }
 .noveno {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(83%);
     font-size: 11px;
     top: -179px;
-    left: 950px;
 }
 
 /*Deco de Eliminar----*/
@@ -613,8 +605,9 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.6em;
+    width: 142em;
+    height: 3.7em;
+    left: -0.4vi;
 }
 .mod1_1 {
     text-align: left;
@@ -680,46 +673,30 @@
 .mod1_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
+    left: 1370px;
     bottom: 22px;
-    top: -7.1em;    
+    top: -8em;    
     width: 70px;
     font-size: 16px;
 }
+.shortfir {
+    position: absolute;
+    top: 2vi;
+    left: 84.5vi;
+}
 .short {
-    position: absolute;
-    width: 1.5%;
-    top: 3.2em;
-    left: 1285px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
-}
-.short1 {
-    position: absolute;
-    width: 1.5%;
-    top: 3.9em;
-    left: 1285px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
-}
-.short2 {
-    position: absolute;
-    width: 1.5%;
-    top: 4.6em;
-    left: 1285px;
-    height: 4px;
-    margin: 10px 0;
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
     background-color: black;
 }
 .cuadro_2{
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.8em;
-    left: -190px;
+    width: 142em;
+    height: 3.7em;  
+    left: -160px;
     top: 8em;
 }
 .mod2_1 {
@@ -781,45 +758,29 @@
 .mod2_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
-    top: -7em;
+    left: 1380px;
+    top: -8.2em;
     width: 168px;
     font-size: 16px;
 }
-.short3 {
+.shortsec {
     position: absolute;
-    width: 1.5%;
-    top: 8em;
-    left: 1092px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
+    left: 76.3vi;
+    top: 5vi;
 }
-.short4 {
-    position: absolute;
-    width: 1.5%;
-    top: 8.8em;
-    left: 1092px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
-}
-.short5 {
-    position: absolute;
-    width: 1.5%;
-    top: 9.5em;
-    left: 1092px;
-    height: 4px;
-    margin: 10px 0;
+.short2 {
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
     background-color: black;
 }
 .cuadro_3{
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.8em;
-    left: -359px;
+    width: 142em;
+    height: 3.7em; 
+    left: -300px;
     top: 13.2em;
 }
 .mod3_1 {
@@ -881,45 +842,29 @@
 .mod3_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
-    top: -7.3em;
+    left: 1370px;
+    top: -9.4em;
     width: 168px;
     font-size: 16px;
 }
-.short6 {
+.shortter {
     position: absolute;
-    width: 1.5%;
-    top: 13.6em;
-    left: 924px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
+    top: 8vi;
+    left: 68.7vi;
 }
-.short7 {
-    position: absolute;
-    width: 1.5%;
-    top: 14.3em;
-    left: 924px;
-    height: 4px;
-    margin: 10px 0;
-    background-color: black;
-}
-.short8 {
-    position: absolute;
-    width: 1.5%;
-    top: 15.1em;
-    left: 924px;
-    height: 4px;
-    margin: 10px 0;
+.short3 {
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
     background-color: black;
 }
 .cuadro_4{
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.8em;
-    left: -490px;
+    width: 142em;
+    height: 3.7em; 
+    left: -435px;
     top: 18.5em;
 }
 .mod4_1 {
@@ -981,18 +926,29 @@
 .mod4_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
-    top: -7.3em;
+    left: 1370px;
+    top: -8.3em;
     width: 168px;
     font-size: 16px;
+}
+.shortcuar{
+    position: absolute;
+    top: 11vi;
+    left: 61.6vi;
+}
+.short4 {
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
+    background-color: black;
 }
 .cuadro_5{
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.8em;
-    left: -645px;
+    width: 142em;
+    height: 3.7em; 
+    left: -620px;
     top: 24em;
 }
 .mod5_1 {
@@ -1054,18 +1010,29 @@
 .mod5_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
-    top: -7.3em;
+    left: 1370px;
+    top: -9.4em;
     width: 168px;
     font-size: 16px;
+}
+.shortquin{
+    position: absolute;
+    top: 14.3vi;
+    left: 51.6vi;
+}
+.short5 {
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
+    background-color: black;
 }
 .cuadro_6{
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 116em;
-    height: 3.8em;
-    left: -846px;
+    width: 142em;
+    height: 3.7em;
+    left: -840px;
     top: 30em;
 }
 .mod6_1 {
@@ -1127,8 +1094,33 @@
 .mod6_9 {
     text-align: left;
     position: relative;
-    left: 1190px;
-    top: -7.3em;
+    left: 1370px;
+    top: -8.2em;
     width: 168px;
     font-size: 16px;
 }
+.shortsex{
+    position: absolute;
+    top: 18vi;
+    left: 39.7vi;
+}
+.short6 {
+    width: 2vi;
+    height: 0.3vi;
+    margin: 6px 0; 
+    background-color: black;
+}
+.enviara {
+        border-radius: 15px;
+        border: 1px solid #ff721b;
+        background-color: #ff721b;
+        color: white;
+        font-size: 1.6em;
+        width:15em;
+        height: 3em;
+        position: relative;
+        right: 46em;
+        top: 27em;
+        cursor: pointer;
+}
+
