@@ -1131,7 +1131,7 @@
         width:15em;
         height: 3em;
         position: relative;
-        right: 46em;
+        right: 53em;
         top: 27em;
         cursor: pointer;
 }
@@ -1147,7 +1147,7 @@
 #contenidoCuadro {
     width: 15vi;
     height: 20vi;
-    background-image: linear-gradient(to bottom, #E66319 5vi, #3E3737 5vi);
+    background-image: linear-gradient(to bottom, #E66319 1vi, #3e3a37 10vi);
     border-radius: 0.3vi;
 }
 #cerrarCuadro {
@@ -1171,43 +1171,59 @@ display: block;
 .logologo{
     position: absolute;
     width: 6vi;
-    top: 1.5vi;
+    top: 1vi;
     left: 4.5vi;
 }
 .usuario{
     position: absolute;
-    font-size: 1.7vi;
+    font-size: 1.5vi;
+    font-family: 'Myriad pro, regular';
+    color: white;
+    top: 6vi;
+    left: 5.3vi;
+}
+.usuario2{
+    position: absolute;
+    font-size: 1.5vi;
+    font-family: 'Myriad pro, regular';
+    color: white;
+    top: 11vi;
+    left: 4vi;
+}
+.usuario3{
+    position: absolute;
+    font-size: 1.5vi;
     font-family: 'Myriad pro, regular';
     color: white;
     top: 8vi;
-    left: 5vi;
+    left: 4vi;
 }
 .config{
     position: absolute;
     width: 1.5vi;
-    top: 13vi;
-    left: 3.5vi;
+    top: 12.8vi;
+    left: 2vi;
 }
 .notifi{
     position: absolute;
-    width: 1.5vi;
-    top: 13vi;
-    left: 3.5vi;
+    width: 1.3vi;
+    top: 9.8vi;
+    left: 2vi;
 }
 .out{
     position: absolute;
-    width: 1.5vi;
-    top: 13vi;
-    left: 3.5vi;
+    width: 1.3vi;
+    top: 16vi;
+    left: 2vi;
 }
 .logout{
     position: absolute;
-    font-size: 1.5vi;
+    font-size: 1.3vi;
     font-family: 'Myriad pro, regular';
     text-decoration: none;
     color: white;
-    top: 12.8vi;
-    left: 5.3vi;
+    top: 16vi;
+    left: 4.5vi;
 }
 
 /*----------Para el celular IPhone 14 pro max----------------------------------------*/
@@ -1284,3 +1300,164 @@ display: block;
     
   
 }
+@property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes primer-progress {
+    to { --progress-value: 31;}
+  }
+
+  .progress-bar {
+    position: absolute;
+    width: 1.6vi;
+    height: 1.6vi;
+    left: 62vi;
+    top: 0.2vi;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+  }
+
+  .start {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    animation: primer-progress 2s 1 forwards;
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+  }
+
+  .start::before {
+    animation: primer-progress 2s 1 forwards;
+  }     
+
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  @-webkit-keyframes segundo-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes segundo-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  .start2{
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+    -webkit-animation: segundo-progress 2s 1 forwards;
+            animation: segundo-progress 2s 1 forwards;
+  }
+
+  .start2::before {
+    -webkit-animation: segundo-progress 2s 1 forwards;  
+            animation: segundo-progress 2s 1 forwards;
+  }
+
+  @-webkit-keyframes tercer-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes tercer-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  .start3{
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(136, 241, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+    -webkit-animation: tercer-progress 2s 1 forwards;
+            animation: tercer-progress 2s 1 forwards;
+  }
+
+  .start3::before {
+    -webkit-animation: tercer-progress 2s 1 forwards;  
+            animation: tercer-progress 2s 1 forwards;
+  }
+  
+  @-webkit-keyframes for-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes for-progress {
+    to {
+      --progress-value: 32;
+    }
+  }
+  .start4{
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+    -webkit-animation: for-progress 2s 1 forwards;
+            animation: for-progress 2s 1 forwards;
+  }
+
+  .start4::before {
+    -webkit-animation: for-progress 2s 1 forwards;  
+            animation: for-progress 2s 1 forwards;
+  }
+
+  @-webkit-keyframes five-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes for-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  .start5{
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(136, 241, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+    -webkit-animation: five-progress 2s 1 forwards;
+            animation: five-progress 2s 1 forwards;
+  }
+
+  .start5::before {
+    -webkit-animation: five-progress 2s 1 forwards;  
+            animation: five-progress 2s 1 forwards;
+  }
+
+  @-webkit-keyframes six-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes six-progress {
+    to {
+      --progress-value: 75;
+    }
+  }
+  .start6{
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(241, 153, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.6vi;
+    -webkit-animation: six-progress 2s 1 forwards;
+            animation: six-progress 2s 1 forwards;
+  }
+
+  .start6::before {
+    -webkit-animation: six-progress 2s 1 forwards;  
+            animation: six-progress 2s 1 forwards;
+  }

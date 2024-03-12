@@ -1,0 +1,50 @@
+.menu-btn {
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu:target {
+    display: flex;
+}
+
+.menu-btn:focus + .menu {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .menu-btn {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+
+    .menu {
+        position: fixed;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+        padding: 10px;
+    }
+}
