@@ -363,27 +363,25 @@
 }
 .primer {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(13%);
     font-size: 11px;
     top: 90px;
-    left: -80px;
 }
 .secun {
     position: relative;
-    transform: translateX(20%);
+    transform: translateX(21%);
     font-size: 11px;
     top: 56px;
 }
 .tercer {
     position: relative;
-    transform: translateX(16%);
+    transform: translateX(29.6%);
     font-size: 11px;
-    top: 22px;
-    left: 215px;
+    top: 23px;
 }
 .cuarto {
     position: relative;
-    transform: translateX(35%);
+    transform: translateX(36%);
     font-size: 11px;
     top: -11px;
 }
@@ -397,7 +395,7 @@
     position: relative;
     transform: translateX(57%);
     font-size: 11px;
-    top: -79px;
+    top: -78px;
 }
 .septimo {
     position: relative;
@@ -409,11 +407,11 @@
     position: relative;
     transform: translateX(73%);
     font-size: 11px;
-    top: -145px;
+    top: -145.8px;
 }
 .noveno {
     position: relative;
-    transform: translateX(83%);
+    transform: translateX(88%);
     font-size: 11px;
     top: -179px;
 }
@@ -605,9 +603,9 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em;
-    left: -0.4vi;
+    left: -0.9vi;
 }
 .mod1_1 {
     text-align: left;
@@ -620,7 +618,7 @@
 .mod1_2 {
     text-align: left;
     position: relative;
-    left: 200px;
+    left: 150px;
     top: -0.5em;
     width: 150px;
     font-size: 16px;
@@ -628,36 +626,36 @@
 .mod1_3{
     text-align: left;
     position: relative;
-    left: 380px;
+    left: 350px;
     bottom: 22px;
-    top: -1.6em;    
+    top: -1.7em;    
     width: 70px;
     font-size: 16px;
 }
 .mod1_4 {
     text-align: left;
     position: relative;
-    left: 510px;
+    left: 470px;
     bottom: 22px;
-    top: -2.7em;    
+    top: -3em;    
     width: 70px;
     font-size: 16px;
 }
 .mod1_5 {
     text-align: left;
     position: relative;
-    left: 690px;
+    left: 650px;
     bottom: 22px;
-    top: -3.8em;    
+    top: -4.2em;    
     width: 70px;
     font-size: 16px;
 }
 .mod1_6 {
     text-align: left;
     position: relative;
-    left: 850px;
+    left: 826px;
     bottom: 22px;
-    top: -4.9em;    
+    top: -5.5em;    
     width: 70px;
     font-size: 16px;
 }
@@ -666,7 +664,7 @@
     position: relative;
     left: 980px;
     bottom: 22px;
-    top: -6em;    
+    top: -6.7em;    
     width: 70px;
     font-size: 16px;
 }
@@ -682,7 +680,7 @@
 .shortfir {
     position: absolute;
     top: 2vi;
-    left: 84.5vi;
+    left: 83vi;
 }
 .short {
     width: 2vi;
@@ -694,9 +692,9 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em;  
-    left: -160px;
+    left: -8.7vi;
     top: 8em;
 }
 .mod2_1 {
@@ -710,7 +708,7 @@
 .mod2_2{
     text-align: left;
     position: relative;
-    left: 195px;
+    left: 150px;
     top: -0.4em;
     width: 168px;
     font-size: 16px;
@@ -718,40 +716,40 @@
 .mod2_3 {
     text-align: left;
     position: relative;
-    left: 376px;
-    top: -1.6em;
+    left: 350px;
+    top: -1.8em;
     width: 168px;
     font-size: 16px;
 }
 .mod2_4 {
     text-align: left;
     position: relative;
-    left: 510px;
-    top: -2.7em;
+    left: 470px;
+    top: -3em;
     width: 168px;
     font-size: 16px;
 }
 .mod2_5 {
     text-align: left;
     position: relative;
-    left: 686px;
-    top: -3.8em;
+    left: 650px;
+    top: -4.3em;
     width: 168px;
     font-size: 16px;
 }
 .mod2_6 {
     text-align: left;
     position: relative;
-    left: 847px;
-    top: -4.8em;
+    left: 825px;
+    top: -5.6em;
     width: 168px;
     font-size: 16px;
 }
 .mod2_7 {
     text-align: left;
     position: relative;
-    left: 975px;
-    top: -6em;
+    left: 978px;
+    top: -7em;
     width: 168px;
     font-size: 16px;
 }
@@ -765,7 +763,7 @@
 }
 .shortsec {
     position: absolute;
-    left: 76.3vi;
+    left: 75.2vi;
     top: 5vi;
 }
 .short2 {
@@ -778,15 +776,15 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em; 
-    left: -300px;
+    left: -17.2vi;
     top: 13.2em;
 }
 .mod3_1 {
     text-align: left;
     position: relative;
-    left: 10px;
+    left: 5px;
     top: 0.7em;
     width: 168px;
     font-size: 16px;
@@ -794,40 +792,40 @@
 .mod3_2 {
     text-align: left;
     position: relative;
-    left: 190px;
-    top: -0.4em;
-    width: 168px;
+    left: 152px;
+    top: -0.6em;
+    width: 170px;
     font-size: 16px;
 }
 .mod3_3 {
     text-align: left;
     position: relative;
-    left: 380px;
-    top: -1.6em;
+    left: 350px;
+    top: -1.8em;
     width: 168px;
     font-size: 16px;
 }
 .mod3_4 {
     text-align: left;
     position: relative;
-    left: 510px;
-    top: -2.8em;
+    left: 470px;
+    top: -3em;
     width: 168px;
     font-size: 16px;
 }
 .mod3_5 {
     text-align: left;
     position: relative;
-    left: 690px;
-    top: -3.9em;
+    left: 655px;
+    top: -4.2em;
     width: 168px;
     font-size: 16px;
 }
 .mod3_6 {
     text-align: left;
     position: relative;
-    left: 850px;
-    top: -5em;
+    left: 825px;
+    top: -5.5em;
     width: 168px;
     font-size: 16px;
 }
@@ -835,7 +833,7 @@
     text-align: left;
     position: relative;
     left: 978px;
-    top: -6.1em;
+    top: -6.7em;
     width: 168px;
     font-size: 16px;
 }
@@ -843,14 +841,14 @@
     text-align: left;
     position: relative;
     left: 1370px;
-    top: -9.4em;
+    top: -8em;
     width: 168px;
     font-size: 16px;
 }
 .shortter {
     position: absolute;
     top: 8vi;
-    left: 68.7vi;
+    left: 66.7vi;
 }
 .short3 {
     width: 2vi;
@@ -862,9 +860,9 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em; 
-    left: -435px;
+    left: -23.7vi;
     top: 18.5em;
 }
 .mod4_1 {
@@ -878,7 +876,7 @@
 .mod4_2 {
     text-align: left;
     position: relative;
-    left: 199px;
+    left: 155px;
     top: -0.4em;
     width: 168px;
     font-size: 16px;
@@ -886,32 +884,32 @@
 .mod4_3 {
     text-align: left;
     position: relative;
-    left: 380px;
-    top: -1.5em;
+    left: 353px;
+    top: -1.7em;
     width: 168px;
     font-size: 16px;
 }
 .mod4_4 {
     text-align: left;
     position: relative;
-    left: 510px;
-    top: -2.7em;
+    left: 475px;
+    top: -3em;
     width: 168px;
     font-size: 16px;
 }
 .mod4_5 {
     text-align: left;
     position: relative;
-    left: 690px;
-    top: -3.9em;
+    left: 655px;
+    top: -4.2em;
     width: 168px;
     font-size: 16px;
 }
 .mod4_6 {
     text-align: left;
     position: relative;
-    left: 865px;
-    top: -5em;
+    left: 850px;
+    top: -5.4em;
     width: 168px;
     font-size: 16px;
 }
@@ -919,7 +917,7 @@
     text-align: left;
     position: relative;
     left: 978px;
-    top: -6.1em;
+    top: -6.6em;
     width: 168px;
     font-size: 16px;
 }
@@ -927,14 +925,14 @@
     text-align: left;
     position: relative;
     left: 1370px;
-    top: -8.3em;
+    top: -8.2em;
     width: 168px;
     font-size: 16px;
 }
 .shortcuar{
     position: absolute;
     top: 11vi;
-    left: 61.6vi;
+    left: 60.4vi;
 }
 .short4 {
     width: 2vi;
@@ -946,56 +944,56 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em; 
-    left: -620px;
+    left: -32.5vi;
     top: 24em;
 }
 .mod5_1 {
     text-align: left;
     position: relative;
-    left: 10px;
-    top: 0.8em;
-    width: 168px;
+    left: 2px;
+    top:0.7em;
+    width: 190px;
     font-size: 16px;
 }
 .mod5_2 {
     text-align: left;
     position: relative;
     left: 199px;
-    top: -0.4em;
+    top: -0.6em;
     width: 168px;
     font-size: 16px;
 }
 .mod5_3 {
     text-align: left;
     position: relative;
-    left: 380px;
-    top: -1.5em;
+    left: 365px;
+    top: -1.8em;
     width: 168px;
     font-size: 16px;
 }
 .mod5_4 {
     text-align: left;
     position: relative;
-    left: 510px;
-    top: -2.7em;
+    left: 475px;
+    top: -3.2em;
     width: 168px;
     font-size: 16px;
 }
 .mod5_5 {
     text-align: left;
     position: relative;
-    left: 690px;
-    top: -3.9em;
+    left: 655px;
+    top: -4.3em;
     width: 168px;
     font-size: 16px;
 }
 .mod5_6 {
     text-align: left;
     position: relative;
-    left: 850px;
-    top: -5em;
+    left: 820px;
+    top: -5.5em;
     width: 168px;
     font-size: 16px;
 }
@@ -1003,7 +1001,7 @@
     text-align: left;
     position: relative;
     left: 974px;
-    top: -6.1em;
+    top: -6.8em;
     width: 168px;
     font-size: 16px;
 }
@@ -1011,7 +1009,7 @@
     text-align: left;
     position: relative;
     left: 1370px;
-    top: -9.4em;
+    top: -8.1em;
     width: 168px;
     font-size: 16px;
 }
@@ -1030,15 +1028,15 @@
     border: 1px solid grey;
     border-radius: 1em;
     position: absolute;
-    width: 142em;
+    width: 140em;
     height: 3.7em;
-    left: -840px;
+    left: -44.4vi;
     top: 30em;
 }
 .mod6_1 {
     text-align: left;
     position: relative;
-    left: 10px;
+    left: 6px;
     top: 0.8em;
     width: 168px;
     font-size: 16px;
@@ -1046,48 +1044,48 @@
 .mod6_2 {
     text-align: left;
     position: relative;
-    left: 199px;
-    top: -0.4em;
+    left: 159px;
+    top: -0.5em;
     width: 168px;
     font-size: 16px;
 }
 .mod6_3 {
     text-align: left;
     position: relative;
-    left: 380px;
-    top: -1.5em;
+    left: 360px;
+    top: -1.9em;
     width: 168px;
     font-size: 16px;
 }
 .mod6_4 {
     text-align: left;
     position: relative;
-    left: 510px;
-    top: -2.7em;
+    left: 475px;
+    top: -3em;
     width: 168px;
     font-size: 16px;
 }
 .mod6_5 {
     text-align: left;
     position: relative;
-    left: 690px;
-    top: -3.9em;
+    left: 660px;
+    top: -4.3em;
     width: 168px;
     font-size: 16px;
 }
 .mod6_6 {
     text-align: left;
     position: relative;
-    left: 850px;
-    top: -5em;
+    left: 820px;
+    top: -5.6em;
     width: 168px;
     font-size: 16px;
 }
 .mod6_7 {
     text-align: left;
     position: relative;
-    left: 974px;
-    top: -6.1em;
+    left: 979px;
+    top: -6.7em;
     width: 168px;
     font-size: 16px;
 }
@@ -1119,8 +1117,38 @@
         width:15em;
         height: 3em;
         position: relative;
-        right: 46em;
+        right: 52em;
         top: 27em;
         cursor: pointer;
 }
-
+#enviado {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: -46em;
+    bottom: 4em;
+    width: 18em;
+    height: 9em;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 29px;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+    padding-bottom: 0;
+}
+#enviado:target{
+    opacity: 1;
+    display: block;
+}
+.correcto{
+    margin: 1em;
+    width: 5em;
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 1.4em;
+    cursor: pointer;
+}
