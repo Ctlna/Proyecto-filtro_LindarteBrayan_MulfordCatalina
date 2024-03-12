@@ -135,7 +135,7 @@
     color: black;
 }
 
-/*Deco de ayuda-----*/
+/*Deco de barra-----*/
 #barraHorizontal{
     position: relative;
 }
@@ -180,7 +180,7 @@
     color: black;
     width: 4em;
     position: absolute;
-    top: 13%;
+    top: 36%;
     left: 20%;
     font-size: 1.4em;
 }
@@ -243,6 +243,20 @@
     height: 4px;
     text-decoration:none
 }
+#HaRefresh{
+    color: black;
+    font-size: 1.4em;
+    background-color: white;
+    width: 20em;
+    position: relative;
+    left: 30em;
+    top: 12em;
+    height: 20em;
+    text-align: center;
+    border-radius: 2em;
+}
+
+/*Deco de ayuda-------*/
 #HaAyuda{
     position: absolute;
     left: 314px;
@@ -1110,17 +1124,3 @@
     margin: 6px 0; 
     background-color: black;
 }
-.enviara {
-        border-radius: 15px;
-        border: 1px solid #ff721b;
-        background-color: #ff721b;
-        color: white;
-        font-size: 1.6em;
-        width:15em;
-        height: 3em;
-        position: relative;
-        right: 46em;
-        top: 27em;
-        cursor: pointer;
-}
-
