@@ -314,7 +314,7 @@
     display: block;
     opacity: 0;
     position: relative;
-    left: 20em;
+    left: -45em;
     top: 6em;
     width: 19em;
     height: 9em;
@@ -330,8 +330,8 @@
 #enviado:target{
     opacity: 1;
 }
-.oki{
-    width: 2em;
+.correcto{
+    width: 6em;
     border-radius: 15px;
     border: 1px solid #ff721b;
     background-color: #FFFFFF;
