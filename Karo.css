@@ -1135,4 +1135,78 @@
         top: 27em;
         cursor: pointer;
 }
+#cuadroSobrepuesto {
+    display: none;
+    position: fixed;
+    top: 4.6vi;
+    left: 85vi;
+    z-index: 999;
+
+}
+
+#contenidoCuadro {
+    width: 15vi;
+    height: 20vi;
+    background-image: linear-gradient(to bottom, #E66319 5vi, #3E3737 5vi);
+    border-radius: 0.3vi;
+}
+#cerrarCuadro {
+display: block;
+}
+#mostrarCuadro {
+cursor: pointer;
+}
+#cuadroSobrepuesto:target {
+display: block;
+}
+.cerrar{
+    position: absolute;
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    text-decoration: none;
+    color: white;
+    top: 18.5vi;
+    left: 6vi;
+}
+.logologo{
+    position: absolute;
+    width: 6vi;
+    top: 1.5vi;
+    left: 4.5vi;
+}
+.usuario{
+    position: absolute;
+    font-size: 1.7vi;
+    font-family: 'Myriad pro, regular';
+    color: white;
+    top: 8vi;
+    left: 5vi;
+}
+.config{
+    position: absolute;
+    width: 1.5vi;
+    top: 13vi;
+    left: 3.5vi;
+}
+.notifi{
+    position: absolute;
+    width: 1.5vi;
+    top: 13vi;
+    left: 3.5vi;
+}
+.out{
+    position: absolute;
+    width: 1.5vi;
+    top: 13vi;
+    left: 3.5vi;
+}
+.logout{
+    position: absolute;
+    font-size: 1.5vi;
+    font-family: 'Myriad pro, regular';
+    text-decoration: none;
+    color: white;
+    top: 12.8vi;
+    left: 5.3vi;
+}
 
