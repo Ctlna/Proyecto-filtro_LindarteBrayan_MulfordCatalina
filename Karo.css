@@ -1248,17 +1248,17 @@ display: block;
         top: 4vi;
         left: 4vi;
         width: 96.96vi;
-        height: 213vi;
+        height: 201vi;
         text-align: center;
     }
     .logoNombre {
         right: 140px;
-        top: 15px;
+        top: 7px;
         width: 125px;
         height: 150px;
     }
     .hola {
-        margin-top: 181px;
+        margin-top: 160px;
         font-size: 8vi;
     }
     .texto {
@@ -1297,7 +1297,7 @@ display: block;
     .logoSolo {
         top: 13vi;
         right: 96.6em;
-        width: 75vi;
+        width: 50vi;
     }
     .cajaLoginDos {
         position: absolute;
@@ -1389,7 +1389,7 @@ display: block;
     }
     .enviar {
         position: relative;
-        right: 3.7em;
+        right: 3.07em;
         top: 6em;
         cursor: pointer;
     }
@@ -1424,18 +1424,18 @@ display: block;
     }
     .indica {
         text-align: center;
-        left: 4em;
+        left: 7em;
         top: 2em;
         width: 12em;
     }
     .fdterminación {
-        left: 8em;
+        left: 10.5em;
         bottom: -33%;
         width: 4em;
     }
     .area {
         text-align: center;
-        left: 8em;
+        left: 10.2em;
         bottom: -49%;
         width: 4.3em;
     }
@@ -1443,7 +1443,7 @@ display: block;
         visibility: hidden;
     }
     #seguro {
-        left: 1em;
+        left: 1.5em;
         bottom: 9em;
         width: 9em;
         height: 16em;
