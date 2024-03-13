@@ -359,6 +359,12 @@
     transform: translateX(300%);
     font-size: 16px;
 }
+.titu1 {
+    position: absolute;
+    top: 11vi;
+    left: 13vi;
+    font-size: 1vi;
+}
 .text {
     position: relative;
     transform: translateX(27%);
@@ -1592,7 +1598,7 @@ display: block;
       --progress-value: 25;
     }
   }
-  @keyframes for-progress {
+    @keyframes five-progress {
     to {
       --progress-value: 95;
     }
@@ -1631,4 +1637,152 @@ display: block;
   .start6::before {
     -webkit-animation: six-progress 2s 1 forwards;  
             animation: six-progress 2s 1 forwards;
+  }
+  .mod1_1_1{
+    display: none;
+  }
+  .mod1_5_1{
+    display: none;
+  }
+  .mod1_5_2{
+    display: none;
+  }
+  .mod1_9_1{
+    display: none;
+  }
+  .mod1_9_2{
+    display: none;
+  }
+  .border_1 {
+    display: none;
+  }
+  .plus {
+    display: none;  
+  }
+    @media screen and (max-width: 600px){
+        .opciones {
+            display: none;
+        }
+        .titu {
+            position: absolute;
+            top: 20vi;
+            left: -162vi;
+            font-size: 4vi;
+        }
+        .titu1 {
+            position: absolute;
+            top: 50vi;
+            left: 36vi;
+            font-size: 6vi;
+        }
+        .text {
+            display: none;
+        }
+        .primer {
+            position: relative;
+            font-size: 3vi;
+            top: 30vi;
+            left: 36vi;
+        }
+        .cuadroo {
+            display: none;
+        }
+        .secun {
+            display: none;
+        }
+        .tercer {
+            display: none;
+        }
+        .cuarto {
+            display: none;
+        }
+        .quinto {
+            display: none;
+        }
+        .sexto {
+            display: none;
+        }
+        .septimo {
+            display: none;
+        }
+        .octavo {
+            display: none;
+        }
+        .noveno {
+            display: none;
+        }
+        .progress-bar{
+            display: none;
+        }
+        .shortfir {
+            display: none;
+        }
+        .cositos {
+            display: none;
+        }
+        .cuadroo {
+            border: 1px solid grey;
+            border-radius: 1em;
+            position: absolute;
+            width: 70vi;
+            height: 80vi;
+            left: -0.9vi;
+        }
+        .mod1_1_1 {
+            display: block;
+            position: absolute;
+            top: 70vi;
+            left: 31vi;
+            font-size: 6vi;
+        }
+        .mod1_5_1 {
+            display: block;
+            position: absolute;
+            top: 80vi;
+            left: 20vi;
+            font-size: 6vi;
+        }
+        .mod1_5_2 {
+            display: block;
+            position: absolute;
+            top: 100vi;
+            left: 38.4vi;
+            font-size: 6vi;
+        }
+        .mod1_9_1{
+            display: block;
+            position: absolute;
+            top: 110vi;
+            left: 41vi;
+            font-size: 6vi;
+        }
+        .mod1_9_2{
+            display: block;
+            position: absolute;
+            top: 128vi;
+            left: 36vi;
+            font-size: 6vi;
+        }
+        .border_1 {
+            position: absolute;
+            display: block;
+            border: 1px solid gainsboro;
+            width: 75vi;
+            height: 99vi;
+            top: 50vi;
+            left: 14vi;    
+        }
+        .plus {
+            position: absolute;
+            display: block;
+            text-align: center;
+            line-height: 1vi;
+            font-size: 10vi;
+            width: 10vi;
+            height: 6vi;
+            top: 138vi;
+            left: 44vi;
+            border: 3px solid orange;
+            text-decoration: none;
+        }
   }
