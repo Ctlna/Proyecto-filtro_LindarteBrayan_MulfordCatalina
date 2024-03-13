@@ -1243,6 +1243,91 @@ display: block;
         width: 430px;
         height: 932px;
     }
+        /*Login*/
+    .cajaLogin {
+        top: 4vi;
+        left: 4vi;
+        width: 96.96vi;
+        height: 213vi;
+        text-align: center;
+    }
+    .logoNombre {
+        right: 140px;
+        top: 15px;
+        width: 125px;
+        height: 150px;
+    }
+    .hola {
+        margin-top: 181px;
+        font-size: 8vi;
+    }
+    .texto {
+        font-size: 5.7vi;
+    }
+    .formularioGet {
+        position: relative;
+        left: 0em;
+        text-align: center;
+        font-size: 7vi;
+    }
+    .cuadroLogin {
+        width: 85vi;
+        font-size: 7vi;
+        height: 12vi;
+    }
+    .botonI {
+        right: -1vi;
+        border-radius: 25px;
+        font-size: 1.5em;
+        width: 7.6em;
+        height: 21vi;
+    }
+    .textico {
+        margin-top: 2em;
+        font-size: 4.2vi;
+        width: 97vi;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /*------*/
+    .login{
+        width: 430px;
+        height: 932px;
+    }
+    .logoSolo {
+        top: 13vi;
+        right: 96.6em;
+        width: 75vi;
+    }
+    .cajaLoginDos {
+        position: absolute;
+        top: 10vi;
+        left: 1.2em;
+        height: 35em;
+        width: 95vi;
+    }
+    .loginNombre {
+        right: 8em;
+        top: 6%;
+        width: 7em;
+        height: 8em;
+    }
+    .aparece {
+        position: relative;
+        top: 26vi;
+        left: 0.2em;
+    }
+    .holis {
+        margin-top: 2.4em;
+        font-size: 9vi;
+        color: black;
+    }
+    .perfil {
+        width: 8em;
+    }
+    .textiwiris {
+        font-size: 2em;
+    }
     /*Refrescar*/
     #HaRefresh {
         color: black;
