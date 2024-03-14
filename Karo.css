@@ -245,22 +245,21 @@
 }
 #HaRefresh{
     color: black;
-    font-size: 1.4em;
+    font-size: 1vi;
     background-color: white;
-    width: 20em;
+    width: 15vi;
     position: relative;
-    left: 30em;
-    top: 12em;
-    height: 20em;
+    left: 42vi;
+    top: 20vi;
+    height: 8vi;
     text-align: center;
-    border-radius: 2em;
 }
 
 /*Deco de ayuda-------*/
 #HaAyuda{
     position: absolute;
-    left: 314px;
-    top: 170px;
+    left: 21vi;
+    top: 10vi;
     text-align: center;
     
 }
@@ -297,7 +296,33 @@
     top: 3em;
     cursor: pointer;
 }
-.enviar{
+.enviarE{
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #ff721b;
+    color: white;
+    font-size: 1.5em;
+    width: 8.3em;
+    height: 2.4em;
+    position: relative;
+    right: 1em;
+    top: 3em;
+    cursor: pointer;
+}
+.enviarR{
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #ff721b;
+    color: white;
+    font-size: 1.5em;
+    width: 8.3em;
+    height: 2.4em;
+    position: relative;
+    right: 1em;
+    top: 3em;
+    cursor: pointer;
+}
+.enviarA{
     border-radius: 15px;
     border: 1px solid #ff721b;
     background-color: #ff721b;
@@ -314,20 +339,34 @@
     display: block;
     opacity: 0;
     position: relative;
-    left: -45em;
-    top: 6em;
-    width: 19em;
-    height: 9em;
+    left: -50vi;
+    top: 0vi;
+    width: 3vi;
+    height: 3vi;
     border: 1px solid #707070;
     background-color: #FFFFFF;
-    border-radius: 29px;
+    border-radius: 10vi;
     animation-fill-mode: forwards;
     text-align: center;
     font-size: 2em;
     padding: 1em;
     padding-bottom: 0;
 }
-#enviado:target{
+#enviadoA {
+    position: absolute;
+    top: 20vi;
+    left: 38vi;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 1vi;
+    width: 25vi;
+    text-align: center;
+    height: 5vi;
+    display: block;
+    opacity: 0;
+
+}
+#enviadoA:target{
     opacity: 1;
 }
 .correcto{
@@ -354,104 +393,13 @@
 }
 
 /*Deco de Añadir------*/
-.titu {
-    position: absolute;
-    transform: translateX(300%);
-    font-size: 16px;
-}
-.titu1 {
-    position: absolute;
-    top: 11vi;
-    left: 13vi;
-    font-size: 1vi;
-}
-.text {
-    position: relative;
-    transform: translateX(27%);
-    font-size: 17px;
-    top: 70px;
-}
-.cositos {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 310px;
-    margin-top: 14px;
-}
-.simbolitoTu, .simbolitoCa, .fotoPer {
-    margin-left: 12px;
-    width: 2vi;
-}
-.fotoPer {
-    position: relative;
-    left: 21em;
-    width: 4vi;
-}
-.simbolitoTu, .simbolitoCa {
-    position: relative;
-    top: 7px; 
-    left: 20em;
-}
-.primer {
-    position: relative;
-    transform: translateX(13%);
-    font-size: 11px;
-    top: 90px;
-}
-.secun {
-    position: relative;
-    transform: translateX(21%);
-    font-size: 11px;
-    top: 56px;
-}
-.tercer {
-    position: relative;
-    transform: translateX(29.6%);
-    font-size: 11px;
-    top: 23px;
-}
-.cuarto {
-    position: relative;
-    transform: translateX(36%);
-    font-size: 11px;
-    top: -11px;
-}
-.quinto {
-    position: relative;
-    transform: translateX(45%);
-    font-size: 11px;
-    top: -45px;
-}
-.sexto {
-    position: relative;
-    transform: translateX(57%);
-    font-size: 11px;
-    top: -78px;
-}
-.septimo {
-    position: relative;
-    transform: translateX(64%);
-    font-size: 11px;
-    top: -111.7px;
-}
-.octavo {
-    position: relative;
-    transform: translateX(73%);
-    font-size: 11px;
-    top: -145.8px;
-}
-.noveno {
-    position: relative;
-    transform: translateX(88%);
-    font-size: 11px;
-    top: -179px;
-}
+
 
 /*Deco de Eliminar----*/
 #HaEliminar{
     position: absolute;
-    left: 314px;
-    top: 170px;
+    left: 21vi;
+    top: 10vi;
     text-align: center;
 }
 .dondeEstas{
@@ -466,21 +414,19 @@
 }
 .lineaTitulos{
     position: relative;
-    right: 7em;
-    width: 80em;
-    height: 2em;
+    right: 2.5vi;
     display: flex;
     justify-content: space-evenly;
     font-weight: bolder;
     font-size: 1vi;
     margin: 1em;
-    margin-top: 2em;
+    margin-top: 1vi;
 }
 .contenidoEliminar{
     position: relative;
-    top: 6px;
-    left: 3px;
-    width: 83.73em;
+    top: 0vi;
+    left: 1vi;
+    width: 10vi;
 }
 .lineaUno{
     position: relative;
@@ -610,8 +556,8 @@
 /*Deco de Reportar---*/
 #HaReportes{
     position: absolute;
-    left: 314px;
-    top: 170px;
+    left: 21vi;
+    top: 10vi;
     text-align: center;
 }
 .rectangulo{
@@ -630,527 +576,632 @@
 }
 
 /*Decoración de añadir*/
-.cuadroo {
-    border: 1px solid grey;
-    border-radius: 1em;
+
+@font-face {
+    font-family: 'Myriad pro, regular';
+    src: url(./font/Myriad\ Pro\ Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.flex-conteiner{
     position: absolute;
-    width: 140em;
-    height: 3.7em;
-    left: -0.9vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1vi;
 }
-.mod1_1 {
-    text-align: left;
-    position: relative;
-    left: 8px;
-    top: 0.7em;
-    width: 168px;
-    font-size: 16px;
+.mas{
+    margin-left: 7vi;
+    width: 1.3vi;
 }
-.mod1_2 {
-    text-align: left;
-    position: relative;
-    left: 150px;
-    top: -0.5em;
-    width: 150px;
-    font-size: 16px;
+.Añadir{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
 }
-.mod1_3{
-    text-align: left;
-    position: relative;
-    left: 350px;
-    bottom: 22px;
-    top: -1.7em;    
-    width: 70px;
-    font-size: 16px;
+.circul{
+    margin-left: 8.5vi;
+    width: 1.3vi;
 }
-.mod1_4 {
-    text-align: left;
-    position: relative;
-    left: 470px;
-    bottom: 22px;
-    top: -3em;    
-    width: 70px;
-    font-size: 16px;
+.caneca{
+    margin-left: 8.5vi;
+    width: 1.3vi;
 }
-.mod1_5 {
-    text-align: left;
-    position: relative;
-    left: 650px;
-    bottom: 22px;
-    top: -4.2em;    
-    width: 70px;
-    font-size: 16px;
+.logo{
+    margin-left: 8.5vi;
+    width: 3vi;
 }
-.mod1_6 {
-    text-align: left;
-    position: relative;
-    left: 826px;
-    bottom: 22px;
-    top: -5.5em;    
-    width: 70px;
-    font-size: 16px;
+.report{
+    margin-left: 14.5vi;
+    width: 1.3vi;
 }
-.mod1_7 {
-    text-align: left;
-    position: relative;
-    left: 980px;
-    bottom: 22px;
-    top: -6.7em;    
-    width: 70px;
-    font-size: 16px;
+.circle{
+    margin-left: 8.5vi;
+    width: 1.3vi;
 }
-.mod1_9 {
-    text-align: left;
-    position: relative;
-    left: 1370px;
-    bottom: 22px;
-    top: -8em;    
-    width: 70px;
-    font-size: 16px;
+.tuerca{
+    margin-left: 8.5vi;
+    width: 0.8vi;
 }
-.shortfir {
+.campana{
+    margin-left: 0.5vi;
+    width: 0.8vi;
+}
+.foto{
+    margin-left: 0.5vi;
+    width: 3vi;
+}
+.linea{
     position: absolute;
-    top: 2vi;
-    left: 83vi;
+    background-color: rgb(134, 134, 134);
+    width: 100vi;
+    height: 0.1vi;
+    margin-top: 4.5vi;
 }
-.short {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
-}
-.cuadro_2{
-    border: 1px solid grey;
-    border-radius: 1em;
+.indicadores{
     position: absolute;
-    width: 140em;
-    height: 3.7em;  
-    left: -8.7vi;
-    top: 8em;
+    font-size: 2.7vi;
+    font-family: 'Myriad pro, regular';
+    top: 6vi;
+    left: 38.45vi;
 }
-.mod2_1 {
-    text-align: left;
-    position: relative;
-    left: 8px;
-    top: 0.7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_2{
-    text-align: left;
-    position: relative;
-    left: 150px;
-    top: -0.4em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_3 {
-    text-align: left;
-    position: relative;
-    left: 350px;
-    top: -1.8em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_4 {
-    text-align: left;
-    position: relative;
-    left: 470px;
-    top: -3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_5 {
-    text-align: left;
-    position: relative;
-    left: 650px;
-    top: -4.3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_6 {
-    text-align: left;
-    position: relative;
-    left: 825px;
-    top: -5.6em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_7 {
-    text-align: left;
-    position: relative;
-    left: 978px;
-    top: -7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod2_9 {
-    text-align: left;
-    position: relative;
-    left: 1380px;
-    top: -8.2em;
-    width: 168px;
-    font-size: 16px;
-}
-.shortsec {
+.Aqui{
     position: absolute;
-    left: 75.2vi;
-    top: 5vi;
-}
-.short2 {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
-}
-.cuadro_3{
-    border: 1px solid grey;
-    border-radius: 1em;
-    position: absolute;
-    width: 140em;
-    height: 3.7em; 
-    left: -17.2vi;
-    top: 13.2em;
-}
-.mod3_1 {
-    text-align: left;
-    position: relative;
-    left: 5px;
-    top: 0.7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_2 {
-    text-align: left;
-    position: relative;
-    left: 152px;
-    top: -0.6em;
-    width: 170px;
-    font-size: 16px;
-}
-.mod3_3 {
-    text-align: left;
-    position: relative;
-    left: 350px;
-    top: -1.8em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_4 {
-    text-align: left;
-    position: relative;
-    left: 470px;
-    top: -3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_5 {
-    text-align: left;
-    position: relative;
-    left: 655px;
-    top: -4.2em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_6 {
-    text-align: left;
-    position: relative;
-    left: 825px;
-    top: -5.5em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_7 {
-    text-align: left;
-    position: relative;
-    left: 978px;
-    top: -6.7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod3_9 {
-    text-align: left;
-    position: relative;
-    left: 1370px;
-    top: -8em;
-    width: 168px;
-    font-size: 16px;
-}
-.shortter {
-    position: absolute;
-    top: 8vi;
-    left: 66.7vi;
-}
-.short3 {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
-}
-.cuadro_4{
-    border: 1px solid grey;
-    border-radius: 1em;
-    position: absolute;
-    width: 140em;
-    height: 3.7em; 
-    left: -23.7vi;
-    top: 18.5em;
-}
-.mod4_1 {
-    text-align: left;
-    position: relative;
-    left: 10px;
-    top: 0.8em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_2 {
-    text-align: left;
-    position: relative;
-    left: 155px;
-    top: -0.4em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_3 {
-    text-align: left;
-    position: relative;
-    left: 353px;
-    top: -1.7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_4 {
-    text-align: left;
-    position: relative;
-    left: 475px;
-    top: -3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_5 {
-    text-align: left;
-    position: relative;
-    left: 655px;
-    top: -4.2em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_6 {
-    text-align: left;
-    position: relative;
-    left: 850px;
-    top: -5.4em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_7 {
-    text-align: left;
-    position: relative;
-    left: 978px;
-    top: -6.6em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod4_9 {
-    text-align: left;
-    position: relative;
-    left: 1370px;
-    top: -8.2em;
-    width: 168px;
-    font-size: 16px;
-}
-.shortcuar{
-    position: absolute;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
     top: 11vi;
-    left: 60.4vi;
+    left: 31.9vi;
 }
-.short4 {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
-}
-.cuadro_5{
-    border: 1px solid grey;
-    border-radius: 1em;
+.flex-conteiner2{
     position: absolute;
-    width: 140em;
-    height: 3.7em; 
-    left: -32.5vi;
-    top: 24em;
+    display: flex;
+    margin-top: 14.5vi;
+    margin-left: 8vi;
 }
-.mod5_1 {
-    text-align: left;
-    position: relative;
-    left: 2px;
-    top:0.7em;
-    width: 190px;
-    font-size: 16px;
+.indicador{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
 }
-.mod5_2 {
-    text-align: left;
-    position: relative;
-    left: 199px;
-    top: -0.6em;
-    width: 168px;
-    font-size: 16px;
+.descripcion{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 7vi;
 }
-.mod5_3 {
-    text-align: left;
-    position: relative;
-    left: 365px;
-    top: -1.8em;
-    width: 168px;
-    font-size: 16px;
+.categoria{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 7vi;
 }
-.mod5_4 {
-    text-align: left;
-    position: relative;
-    left: 475px;
-    top: -3.2em;
-    width: 168px;
-    font-size: 16px;
+.fecha1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 2vi;
 }
-.mod5_5 {
-    text-align: left;
-    position: relative;
-    left: 655px;
-    top: -4.3em;
-    width: 168px;
-    font-size: 16px;
+.fecha2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 2vi;
 }
-.mod5_6 {
-    text-align: left;
-    position: relative;
-    left: 820px;
-    top: -5.5em;
-    width: 168px;
-    font-size: 16px;
+.formula{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 2vi;
 }
-.mod5_7 {
-    text-align: left;
-    position: relative;
-    left: 974px;
-    top: -6.8em;
-    width: 168px;
-    font-size: 16px;
+.frecuencia{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 2vi;
 }
-.mod5_9 {
-    text-align: left;
-    position: relative;
-    left: 1370px;
-    top: -8.1em;
-    width: 168px;
-    font-size: 16px;
+.cumplimiento{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 2.5vi;
 }
-.shortquin{
+.areap{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    font-weight: bold;
+    margin-left: 4vi;
+}
+.flex{
     position: absolute;
-    top: 14.3vi;
-    left: 51.6vi;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 16.5vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
 }
-.short5 {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
+.M{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 1vi;
 }
-.cuadro_6{
-    border: 1px solid grey;
-    border-radius: 1em;
+.I{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5.3vi;
+}
+.B{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.8vi;
+}
+.cerocinco{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5vi;
+}
+.doce{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 6.1vi;
+}
+.Me{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.6vi;
+}
+.uncuarto{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3.3vi;
+}
+@property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  @keyframes primer-progress {
+    to { --progress-value: 31;}
+  }
+
+  .progress-bar {
+    width: 3vi;
+    height: 3vi;
+    margin-left: 6.1vi;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+  }
+  
+  .primero {
+    background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    animation: primer-progress 2s 1 forwards;
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+  }
+  
+  .primero::before {
+    animation: primer-progress 2s 1 forwards;
+  }
+  
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+.marketingp{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 15vi;
+}
+.repeat1{
     position: absolute;
-    width: 140em;
-    height: 3.7em;
-    left: -44.4vi;
-    top: 30em;
+    width: 2.5vi;
+    height: 2vi;
+    top: 17.3vi;
+    left: 88vi;
 }
-.mod6_1 {
-    text-align: left;
-    position: relative;
-    left: 6px;
-    top: 0.8em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_2 {
-    text-align: left;
-    position: relative;
-    left: 159px;
-    top: -0.5em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_3 {
-    text-align: left;
-    position: relative;
-    left: 360px;
-    top: -1.9em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_4 {
-    text-align: left;
-    position: relative;
-    left: 475px;
-    top: -3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_5 {
-    text-align: left;
-    position: relative;
-    left: 660px;
-    top: -4.3em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_6 {
-    text-align: left;
-    position: relative;
-    left: 820px;
-    top: -5.6em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_7 {
-    text-align: left;
-    position: relative;
-    left: 979px;
-    top: -6.7em;
-    width: 168px;
-    font-size: 16px;
-}
-.mod6_9 {
-    text-align: left;
-    position: relative;
-    left: 1370px;
-    top: -8.2em;
-    width: 168px;
-    font-size: 16px;
-}
-.shortsex{
+.flex1{
     position: absolute;
-    top: 18vi;
-    left: 39.7vi;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 22vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
 }
-.short6 {
-    width: 2vi;
-    height: 0.3vi;
-    margin: 6px 0; 
-    background-color: black;
+.treintauno1{
+    margin-left: 5.5vi;
+    width: 2.8vi;
 }
-.enviara {
-        border-radius: 15px;
-        border: 1px solid #ff721b;
-        background-color: #ff721b;
-        color: white;
-        font-size: 1.6em;
-        width:15em;
-        height: 3em;
-        position: relative;
-        right: 53em;
-        top: 27em;
-        cursor: pointer;
+.repeat2{
+    position: absolute;
+    width: 2.5vi;
+    height: 2vi;
+    top: 23vi;
+    left: 88vi;
+}
+.flex2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 27.5vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
+}
+.M1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 1vi;
+}
+.I1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3vi;
+}
+.B1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.1vi;
+}
+.cerocinco1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.5vi;
+}
+.doce1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 6.1vi;
+}
+.Me1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.6vi;
+}
+.uncuarto1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3.3vi;
+}
+@-webkit-keyframes segundo-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  @keyframes segundo-progress {
+    to {
+      --progress-value: 25;
+    }
+  }
+  .segundo {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+    -webkit-animation: segundo-progress 2s 1 forwards;
+            animation: segundo-progress 2s 1 forwards;
+  }
+  
+  .segundo::before {
+    -webkit-animation: segundo-progress 2s 1 forwards;
+            animation: segundo-progress 2s 1 forwards;
+  }
+  
+  
+.marketingp1{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 13.6vi;
+}
+.repeat3{
+    position: absolute;
+    width: 2.5vi;
+    height: 2vi;
+    top: 28.5vi;
+    left: 88vi;
+}
+.flex3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 33vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
+}
+.M2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 1vi;
+}
+.I2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3vi;
+}
+.B2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5vi;
+}
+.cerocinco2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.5vi;
+}
+.doce2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 6.2vi;
+}
+.Me2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5.4vi;
+}
+.uncuarto2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.4vi;
+}
+@-webkit-keyframes tercero-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes tercero-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  .tercero {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(41, 189, 22) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+    -webkit-animation: tercero-progress 2s 1 forwards;
+            animation: tercero-progress 2s 1 forwards;
+  }
+  
+  .tercero::before {
+    -webkit-animation: tercero-progress 2s 1 forwards;
+            animation: tercero-progress 2s 1 forwards;
+  }
+.marketingp2{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 14vi;
+}
+.repeat4{
+    position: absolute;
+    width: 2.5vi;
+    height: 2vi;
+    top: 34vi;
+    left: 88vi;
+}
+.flex4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 38.5vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
+}
+.M3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 1vi;
+}
+.I3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 0.5vi;
+}
+.B3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.6vi;
+}
+.cerocinco3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5.5vi;
+}
+.doce3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 6.2vi;
+}
+.Me3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.5vi;
+}
+.uncuarto3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3vi;
+}
+@-webkit-keyframes cuarto-progress {
+    to {
+      --progress-value: 32;
+    }
+  }
+  @keyframes cuarto-progress {
+    to {
+      --progress-value: 32;
+    }
+  }
+  .cuarto {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(241, 37, 37) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+    -webkit-animation: cuarto-progress 2s 1 forwards;
+            animation: cuarto-progress 2s 1 forwards;
+  }
+  
+  .cuarto::before {
+    -webkit-animation: cuarto-progress 2s 1 forwards;
+            animation: cuarto-progress 2s 1 forwards;
+  }
+.marketingp3{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 14vi;
+}
+.repeat5{
+    position: absolute;
+    width: 2.5vi;
+    height: 2vi;
+    top: 39.5vi;
+    left: 88vi;
+}
+.flex5{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80.5vi;
+    height: 4.5vi;
+    top: 44vi;
+    left: 7vi;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 1.5vi;
+}
+.M4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 1vi;
+}
+.I4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3vi;
+}
+.B4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.7vi;
+}
+.cerocinco4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 5.5vi;
+}
+.doce4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 6vi;
+}
+.Me4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 4.5vi;
+}
+.uncuarto4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 3.2vi;
+}
+@-webkit-keyframes quinto-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes quinto-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  .quinto {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(41, 189, 22) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+    -webkit-animation: quinto-progress 2s 1 forwards;
+            animation: quinto-progress 2s 1 forwards;
+  }
+  
+  .quinto::before {
+    -webkit-animation: quinto-progress 2s 1 forwards;
+            animation: quinto-progress 2s 1 forwards;
+  }
+  @-webkit-keyframes sexto-progress {
+    to {
+      --progress-value: 75;
+    }
+  }
+  @keyframes sexto-progress {
+    to {
+      --progress-value: 75;
+    }
+  }
+  .sexto {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0), conic-gradient(rgb(231, 204, 83) calc(var(--progress-value) * 1%), rgb(255, 255, 255) 0);
+    font-family: 'Myriad pro, regular';
+    font-size: 0.8vi;
+    -webkit-animation: sexto-progress 2s 1 forwards;
+            animation: sexto-progress 2s 1 forwards;
+  }
+  
+  .sexto::before {
+    -webkit-animation: sexto-progress 2s 1 forwards;
+            animation: sexto-progress 2s 1 forwards;
+  }
+.marketingp4{
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    margin-left: 14vi;
+}
+.repeat6{
+    position: absolute;
+    width: 2.5vi;
+    height: 2vi;
+    top: 45vi;
+    left: 88vi;
+}
+.añadir1{
+    position: absolute;
+    top: 30vi;
+    left: 42.5vi;
+    font-size: 1.5vi;
+    font-family: 'Myriad pro, regular';
+    text-decoration: none;
+    color: white;
+    background-color: #FF7C32;
+    width: 15vi;
+    height: 3.5vi;
+    border-radius: 1vi;
+    line-height: 3.1vi;
+    text-align: center;
 }
 #cuadroSobrepuesto {
     display: none;
@@ -1158,13 +1209,13 @@
     top: 4.6vi;
     left: 85vi;
     z-index: 999;
-
+    
 }
 
 #contenidoCuadro {
     width: 15vi;
     height: 20vi;
-    background-image: linear-gradient(to bottom, #E66319 1vi, #3e3a37 10vi);
+    background-image: linear-gradient(to bottom, #E66319 5vi, #3E3737 5vi);
     border-radius: 0.3vi;
 }
 #cerrarCuadro {
@@ -1188,60 +1239,658 @@ display: block;
 .logologo{
     position: absolute;
     width: 6vi;
-    top: 1vi;
+    top: 1.5vi;
     left: 4.5vi;
 }
 .usuario{
     position: absolute;
-    font-size: 1.5vi;
-    font-family: 'Myriad pro, regular';
-    color: white;
-    top: 6vi;
-    left: 5.3vi;
-}
-.usuario2{
-    position: absolute;
-    font-size: 1.5vi;
-    font-family: 'Myriad pro, regular';
-    color: white;
-    top: 11vi;
-    left: 4vi;
-}
-.usuario3{
-    position: absolute;
-    font-size: 1.5vi;
+    font-size: 1.7vi;
     font-family: 'Myriad pro, regular';
     color: white;
     top: 8vi;
-    left: 4vi;
+    left: 5vi;
 }
-.config{
-    position: absolute;
-    width: 1.5vi;
-    top: 12.8vi;
-    left: 2vi;
-}
-.notifi{
-    position: absolute;
-    width: 1.3vi;
-    top: 9.8vi;
-    left: 2vi;
-}
-.out{
-    position: absolute;
-    width: 1.3vi;
-    top: 16vi;
-    left: 2vi;
-}
+
 .logout{
     position: absolute;
-    font-size: 1.3vi;
+    font-size: 1.5vi;
     font-family: 'Myriad pro, regular';
     text-decoration: none;
     color: white;
-    top: 16vi;
-    left: 4.5vi;
+    top: 12.8vi;
+    left: 5.3vi;
 }
+.linea1{
+    position: absolute;
+    top: 17.2vi;
+    left: 88vi;
+}
+.a{
+    background-color: black;
+    width: 2.5vi;
+    height: 0.3vi;
+    margin-top: 0.5vi;
+}
+.linea2{
+    position: absolute;
+    top: 22.7vi;
+    left: 88vi;
+}
+.linea3{
+    position: absolute;
+    top: 28.2vi;
+    left: 88vi;
+}
+.linea4{
+    position: absolute;
+    top: 33.5vi;
+    left: 88vi;
+}
+.linea5{
+    position: absolute;
+    top: 39vi;
+    left: 88vi;
+}
+.linea6{
+    position: absolute;
+    top: 44.5vi;
+    left: 88vi;
+}
+
+#cuadroSobrepuesto1 {
+    display: none;
+    position: fixed;
+    top: 6vi;
+    left: 20vi;
+    z-index: 999;
+    
+}
+#contenidoCuadro1 {
+    width: 60vi;
+    height: 48vi;
+    background-color: #cccccc;
+    border-radius: 0.3vi;
+}
+#cerrarCuadro1 {
+display: block;
+}
+#mostrarCuadro1 {
+cursor: pointer;
+}
+#cuadroSobrepuesto1:target {
+display: block;
+}
+.enviar{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vi;
+    font-family: 'Myriad pro, regular';
+    top: 45vi;
+    left: 27.5vi;
+    background-color:#FF7C32;
+    width: 5vi;
+    height: 2vi;
+    border-radius: 0.5vi;
+    text-align: center;
+    line-height: 2vi;
+}
+.indicador1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 6vi;
+    top: 2vi;
+}
+.indicador2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 4.2vi;
+    left: 5vi;
+    border-radius: 0.3vi;
+}
+.descripcion1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 34vi;
+    top: 2vi;
+}
+.descripcion2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 4.2vi;
+    left: 33vi;
+    border-radius: 0.3vi;
+}
+.categoria1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 6vi;
+    top: 9vi;
+}
+.categoria2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 11.5vi;
+    left: 5vi;
+    border-radius: 0.3vi;
+}
+.fechai1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 34vi;
+    top: 9vi;
+}
+.fechai2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 11.5vi;
+    left: 33vi;
+    border-radius: 0.3vi;
+}
+.fechaF{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 6vi;
+    top: 16vi;
+}
+.fechaF1{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 18.5vi;
+    left: 5vi;
+    border-radius: 0.3vi;
+}
+.formula1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 34vi;
+    top: 16vi;
+}
+.formula2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 18.5vi;
+    left: 33vi;
+    border-radius: 0.3vi;
+}
+.free0{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 6vi;
+    top: 22.8vi;
+}
+.free{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 25.2vi;
+    left: 5vi;
+    border-radius: 0.3vi;
+}
+.cumplimiento1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 34vi;
+    top: 22.8vi;
+}
+.cumplimiento2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 25.2vi;
+    left: 33vi;
+    border-radius: 0.3vi;
+}
+.area1{
+    position: absolute;
+    font-size: 2vi;
+    font-family: 'Myriad pro, regular';
+    left: 21vi;
+    top: 31vi;
+}
+.area2{
+    position: absolute;
+    width: 20vi;
+    height: 2vi;
+    font-size: 1vi;
+    font-family: 'Myriad pro, regular';
+    top: 33.4vi;
+    left: 20vi;
+    border-radius: 0.3vi;
+}
+.indicadorme{
+    display: none;
+}
+.descripcionme{
+    display: none;
+}
+.cumplimientome{
+    display: none;
+}
+.b{
+    display: none;
+}   
+.medialogo{
+    display: none;
+}
+.medialogo1{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .flex-conteiner{
+        flex-direction: column;
+        width: 10vi;
+        top: 100vi;
+    }
+    .Añadir{
+        display: none;
+    }
+    .mas{
+        display: none;
+    }
+    .circul{
+        display: none;
+    }
+    .caneca{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .report{
+        display: none;
+    }
+    .circle{
+        display: none;
+    }
+    .tuerca{
+       display: none;
+    }
+    .campana{
+        display: none;
+    }
+    .foto{
+        display: none;
+    }
+    .linea{
+        display: none;
+    }
+    .flex2{
+        display: none;
+    }
+    .flex3{
+        display: none;
+    }
+    .flex4{
+        display: none;
+    }
+    .flex5{
+        display: none;
+    }
+    .linea3{
+        display: none;
+    }
+    .linea4{
+        display: none;
+    }
+    .linea5{
+        display: none;
+    }
+    .linea6{
+        display: none;
+    }
+    .indicadores{
+        font-size: 8vi;
+        left: 18vi;
+        top: 23vi;
+    }
+    .Aqui{
+        display: none;
+    }
+    .flex-conteiner2{
+        flex-direction: column;
+        left: 33vi;
+        top: 25vi;
+    }
+    .flex{
+        flex-direction: column;
+        left: 23vi;
+        top: 38vi;
+        height: 80vi;
+        width: 60vi;
+    }
+    .categoria{
+        display: none;
+    }
+    .fecha1{
+        display: none;
+    }
+    .fecha2{
+        display: none;
+    }
+    .formula{
+        display: none;
+    }
+    .frecuencia{
+        display: none;
+    }
+    .areap{
+        display: none;
+    }
+    .indicador{
+        font-size: 6vi;
+    }
+    .descripcion{
+        font-size: 6vi;
+        margin-left: -3vi;
+        margin-top: 15vi;
+    }
+    .cumplimiento{
+        display: none;
+    }
+    .M{
+        font-size: 5vi;
+        margin-top: 13vi;
+    }
+    .I{
+        font-size: 5vi;
+        margin-top: 15vi
+    }
+    .progress-bar{
+        display: none;
+    }
+    .progress-bar::before{
+        display: none;
+    }
+    .primero{
+        display: none;    }
+    .primero::before{
+        display: none;
+    }
+    .segundo::before{
+        display: none;
+    }
+    .B{
+        display: none;
+    }
+    .cerocinco{
+        display: none;
+    }
+    .doce{
+        display: none;
+    }
+    .Me{
+        display: none;
+    }
+    .uncuarto{
+        display: none;
+    }
+    .marketing{
+        display: none;
+    }
+    .flex1{
+        flex-direction: column;
+        left: 23vi;
+        top: 120vi;
+        height: 80vi;
+        width: 60vi;
+    }
+    .linea1{
+        display: none;
+    }
+    .a{
+        width: 6vi;
+        height: 1vi;
+    }
+    .linea2{
+        display: none;
+    }
+    .segundo{
+        display: none;
+    }
+    .añadir1{
+        top: 203vi;
+        left: 36.5vi;
+        width: 27vi;
+        height: 6vi;
+        line-height: 6vi;
+        font-size: 3vi;
+    }
+    .indicadorme{
+        display: block;
+        position: absolute;
+        font-family: 'Myriad pro, regular';
+        font-weight: bold;
+        font-size: 6vi;
+        left: 41vi;
+        top: 123vi;
+    }
+    .descripcionme{
+        display: block;
+        position: absolute;
+        font-family: 'Myriad pro, regular';
+        font-weight: bold;
+        font-size: 6vi;
+        left: 38vi;
+        top: 142.5vi;
+    }
+    .logologo{
+        width: 15vi;
+        top: 2vi;
+        left: 10vi;
+    }
+    .usuario{
+        font-size: 5vi;
+        top: 17.5vi;
+        left: 9.6vi;
+    }
+    .logout{
+        font-size: 3.5vi;
+        top: 28vi;
+        left: 12vi;
+    }
+    .login{
+        width: 4vi;
+        top: 28vi;
+        left: 7vi;
+    }
+    .cerrar{
+        font-size: 3vi;
+        top: 39vi;
+        left: 13.6vi;
+    }
+    #cuadroSobrepuesto1{
+        top: 8vi;
+        left: 18vi;
+    }
+    #contenidoCuadro1{
+        width: 73vi;
+        height: 155vi;
+    }
+    .indicador1{
+        font-size: 6vi;
+    }
+    .indicador2{
+        width: 60vi;
+        height: 5vi;
+        top: 9vi;
+        font-size: 3vi;
+    }
+    .descripcion1{
+        font-size: 6vi;
+        top: 14vi;
+        left: 6vi;
+    }
+    .descripcion2{
+        width: 60vi;
+        height: 5vi;
+        top: 21.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .categoria1{
+        font-size: 6vi;
+        top: 28vi;
+    }
+    .categoria2{
+        width: 60vi;
+        height: 5vi;
+        top: 35vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .fechai1{
+        font-size: 6vi;
+        top: 43vi;
+        left: 6vi;
+    }
+    .fechai2{
+        width: 60vi;
+        height: 5vi;
+        top: 50vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .fechaF{
+        font-size: 6vi;
+        top: 58vi;
+        left: 6vi;
+    }
+    .marketingp {
+        display: none;
+    }
+    .fechaF1{
+        width: 60vi;
+        height: 5vi;
+        top: 65.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .formula1{
+        font-size: 6vi;
+        top: 74vi;
+        left: 6vi;
+    }
+    .formula2{
+        width: 60vi;
+        height: 5vi;
+        top: 81.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .free0{
+        font-size: 6vi;
+        top: 90vi;
+        left: 6vi;
+    }
+    .free{
+        width: 60vi;
+        height: 5vi;
+        top: 97.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .cumplimiento1{
+        font-size: 6vi;
+        top: 107vi;
+        left: 6vi;
+    }
+    .cumplimiento2{
+        width: 60vi;
+        height: 5vi;
+        top: 114.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .area1{
+        font-size: 6vi;
+        top: 124vi;
+        left: 6vi;
+    }
+    .area2{
+        width: 60vi;
+        height: 5vi;
+        top: 131.5vi;
+        left: 5vi;
+        font-size: 3vi;
+    }
+    .enviar{
+        top: 140vi;
+        left: 25.5vi;
+        width: 22vi;
+        height: 5vi;
+        font-size: 3.5vi;
+        line-height: 5vi;
+    }
+    .ver{
+        position: absolute;
+        top: 109vi;
+        left: 43vi;
+    }
+    .ver1{
+        position: absolute;
+        top: 192vi;
+        left: 43vi;
+    }
+    .b{
+        display: block;
+        position: absolute;
+        text-decoration: none;
+        background-color: #FF7C32;
+        width: 20vi;
+        height: 5vi;
+        border-radius: 1vi;
+        line-height: 5vi;
+        color: white;
+        text-align: center;
+        font-family: 'Myriad pro, regular';
+    }   
+    .medialogo{
+        position: absolute;
+        display: block;
+        width: 25vi;
+        top: 1vi;
+        left: 1vi;
+    }
+    .medialogo1{
+        position: absolute;
+        display: block;
+        width: 10vi;
+        top: 10vi;
+        left: 46vi;
+    }
+}
+
 
 /*----------Para el celular IPhone 14 pro max----------------------------------------*/
 @media (max-width: 768px) {
@@ -1474,7 +2123,7 @@ display: block;
     .oki {
         width: 4em;
         padding: 0;
-        margin-top: 0;
+        margin-top: 0;  
     }
 }
 @property --progress-value {
@@ -1492,7 +2141,7 @@ display: block;
     width: 1.6vi;
     height: 1.6vi;
     left: 62vi;
-    top: 0.2vi;
+    top: 1.6vi;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -1598,7 +2247,7 @@ display: block;
       --progress-value: 25;
     }
   }
-    @keyframes five-progress {
+  @keyframes for-progress {
     to {
       --progress-value: 95;
     }
