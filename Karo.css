@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:"slnt" 0;
+body {
+    font-family: 'MyriadProRegular', sans-serif;
 }
 
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('/fuentes/MyriadProLight.otf') format('truetype');
+}
+
+@font-face {    
+    font-family: 'MyriadProRegular';
+    src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+}
 /*Deco del login*/
 #loginhtml{
     position: absolute;
@@ -258,7 +263,7 @@
 /*Deco de ayuda-------*/
 #HaAyuda{
     position: absolute;
-    left: 21vi;
+    left: 14vi;
     top: 10vi;
     text-align: center;
     
@@ -288,12 +293,25 @@
     border: 1px solid #ff721b;
     background-color: #ff721b;
     color: white;
-    font-size: 1.5em;
-    width: 8.3em;
-    height: 2.4em;
+    font-size: 1.3vi;
+    width: 10vi;
+    height: 3vi;
     position: relative;
-    right: 9em;
-    top: 3em;
+    right: 2vi;
+    top: 3.7vi;
+    cursor: pointer;
+}
+.enviarPR{
+    border-radius: 15px;
+    border: 1px solid #ff721b;
+    background-color: #ff721b;
+    color: white;
+    font-size: 1.3vi;
+    width: 15vi;
+    height: 3vi;
+    position: relative;
+    left: 42vi;
+    top: 50vi;
     cursor: pointer;
 }
 .enviarE{
@@ -301,12 +319,12 @@
     border: 1px solid #ff721b;
     background-color: #ff721b;
     color: white;
-    font-size: 1.5em;
-    width: 8.3em;
-    height: 2.4em;
+    font-size: 1.3vi;
+    width: 10vi;
+    height: 3vi;
     position: relative;
-    right: 1em;
-    top: 3em;
+    right: 1vi;
+    top: 3.7vi;
     cursor: pointer;
 }
 .enviarR{
@@ -314,12 +332,12 @@
     border: 1px solid #ff721b;
     background-color: #ff721b;
     color: white;
-    font-size: 1.5em;
-    width: 8.3em;
-    height: 2.4em;
+    font-size: 1.3vi;
+    width: 10vi;
+    height: 3vi;
     position: relative;
-    right: 1em;
-    top: 3em;
+    right: 1vi;
+    top: 3.7vi;
     cursor: pointer;
 }
 .enviarA{
@@ -327,12 +345,12 @@
     border: 1px solid #ff721b;
     background-color: #ff721b;
     color: white;
-    font-size: 1.5em;
-    width: 8.3em;
-    height: 2.4em;
+    font-size: 1.3vi;
+    width: 10vi;
+    height: 3vi;
     position: relative;
-    right: 1em;
-    top: 3em;
+    right: 1vi;
+    top: 3.7vi;
     cursor: pointer;
 }
 #enviado{
@@ -398,7 +416,7 @@
 /*Deco de Eliminar----*/
 #HaEliminar{
     position: absolute;
-    left: 21vi;
+    left: 14vi;
     top: 10vi;
     text-align: center;
 }
@@ -542,6 +560,27 @@
     opacity: 1;
     display: block;
 }
+#seguroA{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left: 35vi;
+    bottom: 4vi;
+    width: 30vi;
+    height: 12vi;
+    top: 26vi;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 29px;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-size: 2vi;
+    padding-bottom: 0;
+}
+#seguroA:target{
+    opacity: 1;
+    display: block;
+}
 .arrepentimiento, .dijoQueSi{
     margin: 1em;
     width: 3em;
@@ -556,7 +595,7 @@
 /*Deco de Reportar---*/
 #HaReportes{
     position: absolute;
-    left: 21vi;
+    left: 14vi;
     top: 10vi;
     text-align: center;
 }
@@ -672,6 +711,9 @@ body{
     font-family: 'Myriad pro, regular';
     font-weight: bold;
 }
+.indicadoor{
+    display: none;
+}
 .descripcion{
     font-size: 1.1vi;
     font-family: 'Myriad pro, regular';
@@ -756,6 +798,9 @@ body{
     font-family: 'Myriad pro, regular';
     margin-left: 6.1vi;
 }
+.doceA {
+    display: none;
+}
 .Me{
     font-size: 1.1vi;
     font-family: 'Myriad pro, regular';
@@ -815,6 +860,9 @@ body{
     font-family: 'Myriad pro, regular';
     margin-left: 15vi;
 }
+.marketingA {
+    display: none;
+}
 .repeat1{
     position: absolute;
     width: 2.5vi;
@@ -832,6 +880,9 @@ body{
     left: 7vi;
     border: 1px solid rgb(131, 131, 131);
     border-radius: 1.5vi;
+}
+.answer2 {
+    display: none;
 }
 .treintauno1{
     margin-left: 5.5vi;
@@ -1205,16 +1256,15 @@ body{
 }
 #cuadroSobrepuesto {
     display: none;
-    position: fixed;
-    top: 4.6vi;
+    position: absolute;
+    top: 0vi;
     left: 85vi;
     z-index: 999;
-    
 }
 
 #contenidoCuadro {
     width: 15vi;
-    height: 20vi;
+    height: 25vi;
     background-image: linear-gradient(to bottom, #E66319 5vi, #3E3737 5vi);
     border-radius: 0.3vi;
 }
@@ -1236,29 +1286,72 @@ display: block;
     top: 18.5vi;
     left: 6vi;
 }
+.cerrarC{
+    position: absolute;
+    font-size: 1.1vi;
+    font-family: 'Myriad pro, regular';
+    text-decoration: none;
+    color: white;
+    top: 23vi;
+    left: 6vi;
+}
 .logologo{
     position: absolute;
     width: 6vi;
-    top: 1.5vi;
+    top: 2vi;
     left: 4.5vi;
 }
 .usuario{
     position: absolute;
     font-size: 1.7vi;
     font-family: 'Myriad pro, regular';
-    color: white;
-    top: 8vi;
+    color: black;
+    top: 8.5vi;
     left: 5vi;
 }
-
+.config{
+    position: absolute;
+    width: 2vi;
+    top: 11vi;
+    left: 2vi;
+}
+.usuario2{
+    position: absolute;
+    font-size: 1.3vi;
+    font-family: 'Myriad pro, regular';
+    color: black;
+    top: 11.2vi;
+    left: 5vi;
+}
+.notifi {
+    position: absolute;
+    width: 2vi;
+    top: 15vi;
+    left: 2vi;
+}
+.usuario3{
+    position: absolute;
+    font-size: 1.3vi;
+    font-family: 'Myriad pro, regular';
+    color: black;
+    top: 15vi;
+    left: 5.3vi;
+}
 .logout{
     position: absolute;
     font-size: 1.5vi;
     font-family: 'Myriad pro, regular';
     text-decoration: none;
-    color: white;
-    top: 12.8vi;
+    color: black;
+    top: 19vi;
     left: 5.3vi;
+    width: 8vi;;
+}
+.out {
+    position: absolute;
+    width: 2vi;
+    top: 19vi;
+    left: 2vi;
 }
 .linea1{
     position: absolute;
@@ -1506,6 +1599,12 @@ display: block;
 .medialogo1{
     display: none;
 }
+.answer {
+    display: none;
+}
+.question2 {
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .flex-conteiner{
         flex-direction: column;
@@ -1548,6 +1647,7 @@ display: block;
     .flex2{
         display: none;
     }
+    
     .flex3{
         display: none;
     }
@@ -1596,7 +1696,9 @@ display: block;
         display: none;
     }
     .fecha2{
-        display: none;
+        font-size: 5vi;
+        margin-top: 16vi;
+        margin-left: -10.5vi;
     }
     .formula{
         display: none;
@@ -1605,26 +1707,38 @@ display: block;
         display: none;
     }
     .areap{
-        display: none;
+        font-size: 5vi;
+        margin-top: 17vi;
+        margin-left: 7.5vi;
     }
     .indicador{
-        font-size: 6vi;
+        font-size: 5vi;
+        margin-top: 7vi;
+        margin-left: 3.3vi;
+    }
+    .answer {
+        display: block;
+        font-size: 4vi;
+        margin-top: 18vi;
+        margin-left: 3.3vi;
+    }
+    .doceA {
+        display: block;
+        font-size: 4vi;
+        margin-top: 18vi;
+        margin-left: 3.3vi;
     }
     .descripcion{
-        font-size: 6vi;
-        margin-left: -3vi;
-        margin-top: 15vi;
+        display: none;
     }
     .cumplimiento{
         display: none;
     }
     .M{
-        font-size: 5vi;
-        margin-top: 13vi;
+       display: none;
     }
     .I{
-        font-size: 5vi;
-        margin-top: 15vi
+        display: none;
     }
     .progress-bar{
         display: none;
@@ -1658,12 +1772,14 @@ display: block;
     .marketing{
         display: none;
     }
+    .enviarPR{
+        display: none;
+    }
     .flex1{
-        flex-direction: column;
-        left: 23vi;
-        top: 120vi;
-        height: 80vi;
-        width: 60vi;
+        display: none;
+    }
+    .answer2 {
+        display: none;  
     }
     .linea1{
         display: none;
@@ -1700,7 +1816,7 @@ display: block;
         position: absolute;
         font-family: 'Myriad pro, regular';
         font-weight: bold;
-        font-size: 6vi;
+        font-size: 4vi;
         left: 38vi;
         top: 142.5vi;
     }
@@ -1789,6 +1905,12 @@ display: block;
     .marketingp {
         display: none;
     }
+    .marketingA {
+        display: block;
+        font-size: 4vi;
+        margin-top: 17vi;
+        margin-left: 3vi;
+    }
     .fechaF1{
         width: 60vi;
         height: 5vi;
@@ -1866,9 +1988,11 @@ display: block;
         display: block;
         position: absolute;
         text-decoration: none;
-        background-color: #FF7C32;
-        width: 20vi;
+        background-color: gray;
+        width: 5vi;
         height: 5vi;
+        top:-37vi;
+        right: 36vi;
         border-radius: 1vi;
         line-height: 5vi;
         color: white;
@@ -2024,6 +2148,15 @@ display: block;
         width: 102vi;
         top: 3em;
     }
+    #enviadoA {
+        position: relative;
+        top: 80vi;
+        left: 17vi;
+        width: 70vi;
+        height: 40vi;
+        font-size: 4vi;
+        cursor: pointer;
+    }
     .ayudaTexto {
         font-weight: bolder;
         padding: 0;
@@ -2038,21 +2171,45 @@ display: block;
     }
     .cancelar {
         position: relative;
-        top: 3em;
+        top: 10vi;
         left: 26vi;
+        width: 25vi;
+        height: 15vi;
+        font-size: 4vi;
         cursor: pointer;
     }
-    .enviar {
+    .enviarE {
         position: relative;
-        right: 3.9em;
-        top: 6em;
+        top: 10vi;
+        left: 30vi;
+        width: 25vi;
+        height: 15vi;
+        font-size: 4vi;
+        cursor: pointer;
+    }
+    .enviarR {
+        position: relative;
+        top: 10vi;
+        left: 30vi;
+        width: 25vi;
+        height: 15vi;
+        font-size: 4vi;
+        cursor: pointer;
+    }
+    .enviarA {
+        position: relative;
+        top: 10vi;
+        left: 30vi;
+        width: 25vi;
+        height: 15vi;
+        font-size: 4vi;
         cursor: pointer;
     }
     #enviado {
         left: 83px;
         top: 5em;
-        width: 10em;
-        height: 10em;
+        width:20vi;
+        height: 10vi;
         text-align: center;
         font-size: 1.5em;
         padding: 0.1em;
@@ -2247,7 +2404,7 @@ display: block;
       --progress-value: 25;
     }
   }
-  @keyframes for-progress {
+  @keyframes five-progress {
     to {
       --progress-value: 95;
     }

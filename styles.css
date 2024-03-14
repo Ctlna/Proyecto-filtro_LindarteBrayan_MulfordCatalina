@@ -1,3 +1,6 @@
+body {
+    background-color: #ff721b;
+}
 .menu-btn {
     cursor: pointer;
     font-size: 20px;
@@ -5,18 +8,19 @@
 }
 
 .menu {
+    position: absolute;
     display: none;
     flex-direction: column;
     background-color: #333;
     padding: 10px;
     position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
+    top: 30vi;
+    left: 50vi;
+    width: 50vi;
 }
 
 .menu a {
-    color: #fff;
+    color:#ff721b;
     text-decoration: none;
     padding: 5px;
 }
@@ -33,16 +37,17 @@
     .menu-btn {
         display: block;
         position: fixed;
-        top: 10px;
-        left: 10px;
+        top: 100px;
+        left: 210px;
         z-index: 1;
     }
 
     .menu {
         position: fixed;
-        top: 40px;
+        top: 100px;
         left: 0;
         width: 100%;
+        height: 40%;
         flex-direction: column;
         background-color: #333;
         padding: 10px;
